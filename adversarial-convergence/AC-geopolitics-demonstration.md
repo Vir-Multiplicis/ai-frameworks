@@ -1,4 +1,4 @@
-# AC Demonstration — Example 1 of 3: Geopolitics
+# AC Demonstration — Example 1 of 2: Geopolitics
 
 *Part of the [ai-frameworks](https://github.com/VirMultiplicis/ai-frameworks) repository by Vir Multiplicis*
 
@@ -202,6 +202,6 @@ The table below does not rate model quality. It shows whether AC produced struct
 
 ---
 
-*AC Demonstration Example 1 of 3 | Vir Multiplicis | April 2026*
+*AC Demonstration Example 1 of 2 | Vir Multiplicis | April 2026*
 
 *See the [README](../README.md) for the full repository overview and links to the complete Medium series.*
