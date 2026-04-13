@@ -1,4 +1,4 @@
-# AC Demonstration — Example 2 of 3: Business Consultancy
+# AC Demonstration — Example 2 of 2: Business Consultancy
 
 *Part of the [ai-frameworks](https://github.com/Vir-Multiplicis/ai-frameworks) repository by Vir Multiplicis*
 
@@ -217,6 +217,6 @@ Note the contrast with the stock responses: all three generic answers produced t
 
 ---
 
-*AC Demonstration Example 2 of 3 | Vir Multiplicis | April 2026*
+*AC Demonstration Example 2 of 2 | Vir Multiplicis | April 2026*
 
 *See the [README](../README.md) for the full repository overview and links to the complete Medium series.*
