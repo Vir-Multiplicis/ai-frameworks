@@ -10,7 +10,7 @@ This document demonstrates Adversarial Convergence (AC) in action on a real-worl
 
 This is Example 2 of 3 in the AC demonstration series. Example 1 covered geopolitics. Example 3 will cover policy analysis.
 
-This demonstration accompanies the Medium article **"Building More Truthful and Stable AI With Adversarial Convergence"** by Vir Multiplicis. [Read the full article here.]([Read full article here.](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6?postPublishedType=repub))
+This demonstration accompanies the Medium article **"Building More Truthful and Stable AI With Adversarial Convergence"** by Vir Multiplicis. [Read full article here](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6?postPublishedType=repub))
 
 ---
 
