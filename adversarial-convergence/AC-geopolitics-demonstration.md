@@ -10,7 +10,7 @@ This document demonstrates Adversarial Convergence (AC) in action on a real-worl
 
 The question was posed on April 13, 2026, during an active and fast-moving conflict. All responses reflect real-time information available at that date.
 
-This demonstration accompanies the Medium article **"Building More Truthful and Stable AI With Adversarial Convergence"** by Vir Multiplicis. [Read the full article here.](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6))
+This demonstration accompanies the Medium article **"Building More Truthful and Stable AI With Adversarial Convergence"** by Vir Multiplicis. ([Read the full article here.](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6))
 
 ---
 
