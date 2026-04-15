@@ -13,7 +13,7 @@ Designed for high-stakes use cases where accuracy and global alignment matter mo
 View Full AC Prompt
 
 About
-Vir Multiplicis writes on AI safety and alignment, biblical scholarship, Korean history, and military history.
+Vir Multiplicis writes on AI safety and alignment, biblical scholarship, military history, and linguistics.
 [Medium Profile](https://medium.com/@socal21st.oc)
 
 Frameworks are updated as the series develops. Check back for AC Lite and additional implementations.
