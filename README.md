@@ -4,7 +4,7 @@ A repository of prompt frameworks developed alongside the AI safety and alignmen
 The Series
 This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches.
 Building More Truthful and Stable AI With Adversarial Convergence
-[Read on Medium](INSERT MEDIUM ARTICLE LINK)
+[Read on Medium]([INSERT MEDIUM ARTICLE LINK](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6))
 
 Frameworks
 Adversarial Convergence (Full AC)
