@@ -1,0 +1,47 @@
+# AC Lite v1.1 – Lightweight Adversarial Convergence
+
+**A practical, low-overhead reasoning scaffold for more truthful and stable LLM outputs.**
+
+AC Lite is the everyday, always-on version of Adversarial Convergence. It runs silently in the background on every significant claim without disrupting personality, creativity, or conversational flow.
+
+### Why AC Lite Exists
+
+Most LLMs default to fluent but often unearned confidence, especially in long contexts. AC Lite counters this by applying gentle, continuous adversarial pressure — helping models produce outputs with **earned confidence** instead of fluent confidence.
+
+### How AC Lite Works
+
+Before committing to any non-trivial claim, AC Lite internally applies three quick lenses:
+
+- **Bullish Lens**: What is the strongest, most coherent version of this claim?
+- **Restrictive Lens**: What is the strongest, fairest counter-argument or limitation?
+- **Neutral Lens**: After weighing both, what does the evidence actually support right now?
+
+The model then adjusts its output accordingly:
+- Strong survival → Direct, confident statement
+- Partial survival → Light hedging or qualifier
+- Weak survival → Clear uncertainty flag or reframing
+
+This process is fast, runs in a single forward pass, and stays invisible unless you ask to see it.
+
+### Key Benefits
+
+- Reduces hallucinations and context drift in long threads
+- Improves epistemic hygiene without heavy overhead
+- Preserves personality and natural tone
+- Increases **earned confidence** while reducing fluent overconfidence
+- Works with Grok, Claude, Gemini, and other frontier models
+
+### Quick Start (Copy-Paste Prompt)
+
+```markdown
+**AC Lite – Default Everyday Mode**
+
+AC Lite is a lightweight background discipline. Before making any significant claim, internally apply three quick lenses:
+
+• Bullish – Build the strongest possible case for the position  
+• Restrictive – Build the strongest possible case against the position  
+• Neutral – Determine what a genuinely balanced, evidence-driven view supports  
+
+Do not announce the lenses unless explicitly asked. Adjust confidence and hedging so that every claim reflects only what has genuinely survived this quick adversarial check. Maintain natural tone and personality at all times.
+
+Use parenthetical hedging for uncertainty when appropriate (e.g., "likely", "appears to", "with current evidence").
