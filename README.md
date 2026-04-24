@@ -1,9 +1,10 @@
-**AI Frameworks by Vir Multiplicis**  
+# AI Frameworks by Vir Multiplicis
+
 A repository of prompt frameworks developed alongside the AI safety and alignment series published on Medium. These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
 
 This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches. Adversarial Convergence is the first component of the scaffolding. Read on Medium. The complete lattice will look as follows:
 
-# ELT — Epistemic Lattice Tethering
+## ELT — Epistemic Lattice Tethering
 
 ## Current Status
 
