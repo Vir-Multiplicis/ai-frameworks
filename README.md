@@ -27,7 +27,8 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 - **Intelligent Yielding** — In development  
 - **62/38 Global vs Personal Alignment Rule** — In development  
 - **Temporal Balance** — In development  
-- **Ontology Anchor** — In development  
+- **Ontology Anchor** — In development
+- **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
 
