@@ -24,10 +24,10 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
   - **AC Lite**: Lightweight version suitable as a background default for most chats.  
   - **Full AC**: Stronger version for high-stakes analytical work.
 
-- **ϕ-DIM (Golden Ratio Dynamic Incentive Modulation)** — In development  
+- **Intelligent Yielding** — In development  
 - **62/38 Global vs Personal Alignment Rule** — In development  
 - **Temporal Balance** — In development  
-- **CogPrint (Light)** — In development  
+- **Ontology Anchor** — In development  
 
 ## Philosophy
 
