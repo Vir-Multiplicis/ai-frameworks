@@ -25,7 +25,7 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
   - **Full AC**: Stronger version for high-stakes analytical work.
 
 - **Intelligent Yielding** — In development  
-- **62/38 Global vs Personal Alignment Rule** — In development  
+- **Alignment Governor: Global vs Personal Alignment** — In development  
 - **Temporal Balance** — In development  
 - **Ontology Anchor** — In development
 - **Workflow Fidelity Protocol** — In development
