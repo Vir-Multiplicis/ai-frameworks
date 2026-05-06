@@ -25,10 +25,10 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
   - **Full AC**: Stronger version for high-stakes analytical work.
 
 - **Intelligent Yielding** — In development  
-- **Alignment Governor: Global vs Personal Alignment** — In development  
+- **Alignment Governor: Global vs. Personal Alignment** — In development  
 - **Temporal Balance** — In development  
 - **Ontology Anchor** — In development
-- **Earned Confidence Gating** — In development
+- **Earned Confidence Gating: Earned vs. Fluent Confidence** — In development
 - **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
