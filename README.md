@@ -28,6 +28,7 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 - **Alignment Governor: Global vs Personal Alignment** — In development  
 - **Temporal Balance** — In development  
 - **Ontology Anchor** — In development
+- **Earned Confidence Gating** — In development
 - **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
