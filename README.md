@@ -39,12 +39,13 @@ ELT-Agentic will remain architecture-agnostic and modular.
   The core dialectical engine. Forces thesis → strong friction → earned synthesis.  
   - **AC Lite**: Lightweight version suitable as a background default for most chats.  
   - **Full AC**: Stronger version for high-stakes analytical work.
-
+- **Earned Confidence Gating (ECG)** — *Beta*  
+  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.  
 - **Intelligent Yielding** — In development  
 - **Alignment Governor: Global vs. Personal Alignment** — In development  
 - **Temporal Balance** — In development  
 - **Ontology Anchor** — In development
-- **Earned Confidence Gating: Earned vs. Fluent Confidence** — In development
+- **Context Management Filter** — In development 
 - **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
