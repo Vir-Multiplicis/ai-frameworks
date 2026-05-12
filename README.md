@@ -22,7 +22,7 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 
 **ELT-Agentic** is the next evolution of the ELT framework — extending epistemic governance from long-context conversation into reliable agentic behavior.
 
-While standard ELT focuses on reasoning quality, coherence, and operator fidelity in dialogue, ELT-Agentic applies the same principles to planning, tool use, multi-step execution, and autonomous operation.
+While standard ELT focuses on reasoning quality, coherence, and operator fidelity in dialogue, ELT-AG applies the same principles to planning, tool use, multi-step execution, and autonomous operation.
 
 #### Key Extensions from Base ELT
 - AC Lite — Action Edition
