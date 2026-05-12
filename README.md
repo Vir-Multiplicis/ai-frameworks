@@ -16,6 +16,7 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 - **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.
 - **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).
 - **ELT-C (Cerebral)** — In development. Optimized for reflective, creative, exploratory, and emotional/support conversations.
+- **ELT-AG (Agentic)** — Conceptual Stage — Architecture sketched and under active discussion. Goal: Create agents that maintain long-horizon coherence, respect operator intent, operate with earned confidence, and self-correct before taking harmful or misaligned actions.
 
 ## Key Components
 
