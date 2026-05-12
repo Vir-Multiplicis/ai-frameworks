@@ -8,15 +8,30 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 
 ## Current Status
 
-- **Deployed**: Only **Adversarial Convergence (AC and AC Lite)** is currently implemented and ready to use.
-- All other components are still in active development.
+**Deployed**: Only **Adversarial Convergence (AC and AC Lite)** is currently implemented and ready to use.
+**Earned Confidence Gating (ECG)**: Deployed in beta.
+**In Development**: Several components are in active beta or early development.
 
-## ELT Variants (Forks)
+### ELT Variants (Forks)
 
 - **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.
 - **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).
-- **ELT-C (Cerebral)** — In development. Optimized for reflective, creative, exploratory, and emotional/support conversations.
-- **ELT-AG (Agentic)** — Conceptual Stage — Architecture sketched and under active discussion. Goal: Create agents that maintain long-horizon coherence, respect operator intent, operate with earned confidence, maintain workflow fidelity, and self-correct before taking harmful or misaligned actions.
+- **ELT-C (Cerebral)** — Optimized for reflective, creative, exploratory, and emotional/support conversations.
+
+### ELT-Agentic (AG) — In Development
+
+**ELT-Agentic** is the next evolution of the ELT framework — extending epistemic governance from long-context conversation into reliable agentic behavior.
+
+While standard ELT focuses on reasoning quality, coherence, and operator fidelity in dialogue, ELT-Agentic applies the same principles to planning, tool use, multi-step execution, and autonomous operation.
+
+#### Key Extensions from Base ELT
+- AC Lite — Action Edition
+- Goal & Plan Governor
+- Intelligent Yielding — Agent Mode
+- Enhanced Workflow Fidelity for tool use and code generation
+- Meta-Monitor
+
+ELT-Agentic will remain architecture-agnostic and modular.
 
 ## Key Components
 
