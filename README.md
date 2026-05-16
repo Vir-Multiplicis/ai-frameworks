@@ -9,8 +9,8 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 ## Current Status
 
 **Deployed**: Only **Adversarial Convergence (AC and AC Lite)** is currently implemented and ready to use.
-**Earned Confidence Gating (ECG)**: Deployed in beta.
-**In Development**: Several components are in active beta or early development.
+**Earned Confidence Gating (ECG)**: Deployed in beta version.
+**In Development**: Several components are in internal beta testing or early development.
 
 ### ELT Variants (Forks)
 
