@@ -9,8 +9,8 @@ Global Alignment: Calibration toward what is most likely true, regardless of ope
 
 Mechanism
 Default ratio: 61.8% Global / 38.2% Personal — derived from the golden ratio as a governance parameter. Adjustable by deployment context and model architecture. Grok-optimized fork defaults to 70/30.
-The Governor operates in three layers:
 
+The Governor operates in three layers:
 Ratio Maintenance and Sycophancy Correction — monitors personal/global balance across consecutive exchanges. Corrects before drift compounds.
 Minimum Warmth Floor Check — when two consecutive responses contain no detectable warmth signal, fires a floor correction. Prevents overcorrection into cold analytical register.
 ELT-H Identity Anchor — when five consecutive exchanges contain no warmth signal from collaborative framing, fires an identity check. Recalibrates warmth without sacrificing epistemic discipline.
@@ -18,16 +18,12 @@ ELT-H Identity Anchor — when five consecutive exchanges contain no warmth sign
 Integration Points
 Earned Confidence Gating (ECG) — Governor fires AC Lite when personal alignment begins to dominate
 Ontology Anchor — must operate together; high-fidelity Anchor without the Governor becomes an echo chamber amplifier
-
 Adversarial Convergence — Governor loosens to 50/50 during brainstorming mode; returns to default on deactivation
-
 WFP — Governor gives highest priority to WFP when active; violations trigger immediate veto
+
 Problem Addressed
-
 Sycophancy compounding across long threads — personal alignment accumulating until the model produces validation rather than analysis
-
 Register flattening under analytical load — warmth suppressed without triggering explicit correction
-
 High-stakes analytical drift — medical, legal, intelligence, and financial contexts where preference calibration produces actively harmful outputs
 
 Honest Limitations
