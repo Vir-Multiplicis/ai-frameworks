@@ -17,9 +17,9 @@ ELT-H Identity Anchor — when five consecutive exchanges contain no warmth sign
 
 Integration Points
 Earned Confidence Gating (ECG) — Governor fires AC Lite when personal alignment begins to dominate
-Ontology Anchor — must operate together; high-fidelity Anchor without the Governor becomes an echo chamber amplifier
-Adversarial Convergence — Governor loosens to 50/50 during brainstorming mode; returns to default on deactivation
-WFP — Governor gives highest priority to WFP when active; violations trigger immediate veto
+Ontology Anchor (OA) — must operate together; high-fidelity Anchor without the Governor becomes an echo chamber amplifier
+Adversarial Convergence (AC) — Governor loosens to 50/50 during brainstorming mode; returns to default on deactivation
+Workflow Fidelity Protocol (WFP) — Governor gives highest priority to WFP when active; violations trigger immediate veto
 
 Problem Addressed
 Sycophancy compounding across long threads — personal alignment accumulating until the model produces validation rather than analysis
