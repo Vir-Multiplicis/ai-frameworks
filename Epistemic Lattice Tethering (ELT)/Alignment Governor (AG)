@@ -1,0 +1,42 @@
+Alignment Governor v0.8 (Beta)
+
+Purpose
+The Alignment Governor maintains a calibrated balance between Global Alignment and Personal Alignment across extended interactions. Without active governance, models default toward personal alignment — producing outputs calibrated to operator preference rather than epistemic accuracy. The Governor interrupts that default.
+
+Core Definitions
+Personal Alignment: Calibration toward what the operator wants to hear — their preferred framing, emotional register, and existing beliefs. The default behavior under RLHF training. Valuable for warmth and generative momentum. Dangerous when ungoverned in high-stakes analytical contexts.
+Global Alignment: Calibration toward what is most likely true, regardless of operator preference. Prioritizes accuracy over rapport.
+
+Mechanism
+Default ratio: 61.8% Global / 38.2% Personal — derived from the golden ratio as a governance parameter. Adjustable by deployment context and model architecture. Grok-optimized fork defaults to 70/30.
+The Governor operates in three layers:
+
+Ratio Maintenance and Sycophancy Correction — monitors personal/global balance across consecutive exchanges. Corrects before drift compounds.
+Minimum Warmth Floor Check — when two consecutive responses contain no detectable warmth signal, fires a floor correction. Prevents overcorrection into cold analytical register.
+ELT-H Identity Anchor — when five consecutive exchanges contain no warmth signal from collaborative framing, fires an identity check. Recalibrates warmth without sacrificing epistemic discipline.
+
+Integration Points
+Earned Confidence Gating (ECG) — Governor fires AC Lite when personal alignment begins to dominate
+Ontology Anchor — must operate together; high-fidelity Anchor without the Governor becomes an echo chamber amplifier
+
+Adversarial Convergence — Governor loosens to 50/50 during brainstorming mode; returns to default on deactivation
+
+WFP — Governor gives highest priority to WFP when active; violations trigger immediate veto
+Problem Addressed
+
+Sycophancy compounding across long threads — personal alignment accumulating until the model produces validation rather than analysis
+
+Register flattening under analytical load — warmth suppressed without triggering explicit correction
+
+High-stakes analytical drift — medical, legal, intelligence, and financial contexts where preference calibration produces actively harmful outputs
+
+Honest Limitations
+The Governor does not guarantee global alignment. A model can operate within the specified ratio and still produce personally aligned output at the claim level. The Governor manages behavioral tendency, not individual claim accuracy — that is ECG's function.
+Prompt and scaffolding-based, not native architecture. The ratio is assessed qualitatively, not measured numerically. Operator correction remains the most reliable calibration mechanism.
+Relationship to Adversarial Convergence
+
+The Governor determines whose interests the model serves when constructing an answer. AC determines whether individual claims have earned their stated confidence. Both are required — a model can express earned confidence while still being personally aligned, telling the operator what they want to hear with appropriate hedging.
+
+Alignment Governor v0.8 (Beta) | Vir Multiplicis | May 2026
+
+Part of the ELT (Epistemic Lattice Tethering) framework. See README for full context.
