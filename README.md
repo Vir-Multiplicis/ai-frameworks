@@ -1,6 +1,6 @@
 # AI Frameworks by Vir Multiplicis
 
-A repository of prompt frameworks developed alongside the AI safety and alignment series published on Medium. These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
+A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on Medium. These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
 
 This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches. Adversarial Convergence is the first component of the scaffolding. Read on Medium. The complete lattice will look as follows:
 
@@ -51,7 +51,7 @@ ELT-Agentic will remain architecture-agnostic and modular.
 
 ## Philosophy
 
-ELT adds dynamic, inference-time epistemic guardrails to help models move from fluent confidence toward earned confidence while preserving long-thread stability.
+ELT adds dynamic, inference-time epistemic guardrails to help models move from fluent toward earned confidence, global rather than personal alignment, and leverages dialectics to maintain epistemic hygiene while preserving long-thread stability by cleaving itself to the operator's cognitive signature.
 
 ## Usage
 
