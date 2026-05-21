@@ -36,5 +36,4 @@ Relationship to Adversarial Convergence
 The Governor determines whose interests the model serves when constructing an answer. AC determines whether individual claims have earned their stated confidence. Both are required — a model can express earned confidence while still being personally aligned, telling the operator what they want to hear with appropriate hedging.
 
 Alignment Governor v0.8 (Beta) | Vir Multiplicis | May 2026
-
 Part of the ELT (Epistemic Lattice Tethering) framework. See README for full context.
