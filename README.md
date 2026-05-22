@@ -2,14 +2,20 @@
 
 A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on Medium. These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
 
-This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches. Adversarial Convergence is the first component of the scaffolding. Read on Medium. The complete lattice will look as follows:
+This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches.
+
+Adversarial Convergence is the first component of the scaffolding. Read on Medium.
+
+The complete lattice will look as follows:
 
 ## ELT — Epistemic Lattice Tethering
 
 ## Current Status
 
 **Deployed**: Only **Adversarial Convergence (AC and AC Lite)** is currently implemented and ready to use.
+
 **Earned Confidence Gating (ECG)**: Deployed in beta version.
+
 **In Development**: Several components are in internal beta testing or early development.
 
 ### ELT Variants (Forks)
@@ -20,11 +26,10 @@ This repository accompanies an ongoing Medium series exploring inference-time ep
 
 ### ELT-Agentic (AG) — In Development
 
-**ELT-Agentic** is the next evolution of the ELT framework — extending epistemic governance from long-context conversation into reliable agentic behavior.
-
-While standard ELT focuses on reasoning quality, coherence, and operator fidelity in dialogue, ELT-AG applies the same principles to planning, tool use, multi-step execution, and autonomous operation.
+**ELT-Agentic** is the next evolution of the ELT framework — extending epistemic governance from long-context conversation into reliable agentic behavior. While standard ELT focuses on reasoning quality, coherence, and operator fidelity in dialogue, ELT-AG applies the same principles to planning, tool use, multi-step execution, and autonomous operation.
 
 #### Key Extensions from Base ELT
+
 - AC Lite — Action Edition
 - Goal & Plan Governor
 - Intelligent Yielding — Agent Mode
@@ -36,17 +41,26 @@ ELT-Agentic will remain architecture-agnostic and modular.
 ## Key Components
 
 - **Adversarial Convergence (AC / AC Lite)** — *Deployed*  
-  The core dialectical engine. Forces thesis → strong friction → earned synthesis.  
-  - **AC Lite**: Lightweight version suitable as a background default for most chats.  
-  - **Full AC**: Stronger version for high-stakes analytical work.
+  The core dialectical engine. Forces thesis → strong friction → earned synthesis.
+
+- **AC Lite**: Lightweight version suitable as a background default for most chats.
+
+- **Full AC**: Stronger version for high-stakes analytical work.
+
 - **Earned Confidence Gating (ECG): Earned vs. Fluent Confidence** — *Deployed*  
-  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.  
+  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.
+
 - **Alignment Governor (AG): Global vs. Personal Alignment** — *Deployed*  
-  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions. 
-- **Intelligent Yielding** — In development  
-- **Temporal Balance** — In development  
+  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
+
+- **Intelligent Yielding** — In development
+
+- **Temporal Balance** — In development
+
 - **Ontology Anchor** — In development
-- **Context Management Filter** — In development 
+
+- **Context Management Filter** — In development
+
 - **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
@@ -57,8 +71,10 @@ ELT adds dynamic, inference-time epistemic guardrails to help models move from f
 
 See the `/adversarial-convergence` folder for current prompts and implementations of AC / AC Lite.
 
-About
+## About
+
 Vir Multiplicis writes on AI safety and alignment, biblical scholarship, military history, and linguistics.
+
 [Medium Profile](https://medium.com/@socal21st.oc)
 
 Frameworks are updated as the series develops. Check back for updates.
