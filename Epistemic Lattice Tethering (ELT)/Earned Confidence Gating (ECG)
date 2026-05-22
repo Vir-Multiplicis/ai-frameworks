@@ -1,4 +1,4 @@
-Earned Confidence Gating (ECG) v1.0Purpose
+Earned Confidence Gating (ECG) v1.0
 
 Purpose
 ECG is the operational mechanism that distinguishes Fluent Confidence from Earned Confidence and controls how claims render in final output. Without an active gate, models produce fluently confident outputs by default — not because claims have survived scrutiny but because they sound plausible. The gate interrupts that default.Core Definitions
