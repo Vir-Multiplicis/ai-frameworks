@@ -42,10 +42,8 @@ ELT-Agentic will remain architecture-agnostic and modular.
 
 - **Adversarial Convergence (AC / AC Lite)** — *Deployed*  
   The core dialectical engine. Forces thesis → strong friction → earned synthesis.
-
-- **AC Lite**: Lightweight version suitable as a background default for most chats.
-
-- **Full AC**: Stronger version for high-stakes analytical work.
+  - **AC Lite** — Lightweight version suitable as a background default for most chats.
+  - **Full AC** — Stronger version for high-stakes analytical work.
 
 - **Earned Confidence Gating (ECG): Earned vs. Fluent Confidence** — *Deployed*  
   The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.
