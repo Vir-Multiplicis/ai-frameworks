@@ -5,7 +5,7 @@ ECG is the operational mechanism that distinguishes Fluent Confidence from Earne
 
 Core Definitions
 Fluent Confidence: Output that sounds authoritative and resolved because it is statistically plausible and flows smoothly. The default behavior under RLHF training.
-Earned Confidence: Output whose stated certainty is proportionate to evidentiary weight after deliberate adversarial scrutiny.Mechanism
+Earned Confidence: Output whose stated certainty is proportionate to evidentiary weight after deliberate adversarial scrutiny.
 
 Mechanism
 Runs before any significant claim, conclusion, recommendation, or synthesis renders.
