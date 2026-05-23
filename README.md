@@ -36,29 +36,28 @@ The complete lattice will look as follows:
 
 ELT-Agentic will remain architecture-agnostic and modular.
 
-
 ## Key Components
 
 - **Adversarial Convergence (AC / AC Lite)** — *Deployed*  
   The core dialectical engine. Forces thesis → strong friction → earned synthesis.
   - **AC Lite** — Lightweight version suitable as a background default for most chats.
-  - **Full AC** — Stronger version for high-stakes analytical work.  
+  - **Full AC** — Stronger version for high-stakes analytical work.
 
 - **Earned Confidence Gating (ECG): Earned vs. Fluent Confidence** — *Deployed*  
-  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.  
+  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.
 
 - **Alignment Governor (AG): Global vs. Personal Alignment** — *Deployed*  
-  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.  
+  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
 
-- **Intelligent Yielding** — In development  
+- **Intelligent Yielding** — In development
 
-- **Temporal Balance** — In development  
+- **Temporal Balance** — In development
 
-- **Ontology Anchor** — In development  
+- **Ontology Anchor** — In development
 
-- **Context Management Filter** — In development  
+- **Context Management Filter** — In development
 
-- **Workflow Fidelity Protocol** — In development  
+- **Workflow Fidelity Protocol** — In development
 
 ## Philosophy
 
@@ -66,7 +65,7 @@ ELT adds dynamic, inference-time epistemic guardrails to help models move from f
 
 ## Usage
 
-See the `/Epistemic Lattice Tethering (ELT)`folder for current prompts and implementations of the key components.
+See the `/Epistemic Lattice Tethering (ELT)` folder for current prompts and implementations of the key components.
 
 ## License
 
