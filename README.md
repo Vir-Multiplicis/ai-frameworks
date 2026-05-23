@@ -6,6 +6,7 @@ Multiple components of the scaffolding area already active. Read on [Medium](htt
 
 The complete lattice will look as follows:
 
+
 ## ELT — Epistemic Lattice Tethering
 
 ## Current Status
@@ -16,11 +17,13 @@ The complete lattice will look as follows:
 
 **In Development**: Several components are in internal beta testing or early development.
 
+
 ### ELT Variants (Forks)
 
 - **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.  
 - **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).  
 - **ELT-C (Cerebral)** — Optimized for reflective, creative, exploratory, and emotional/support conversations.  
+
 
 ### ELT-Agentic (AG) — In Development
 
@@ -35,6 +38,7 @@ The complete lattice will look as follows:
 - Meta-Monitor
 
 ELT-Agentic will remain architecture-agnostic and modular.
+
 
 ## Key Components
 
@@ -59,6 +63,7 @@ ELT-Agentic will remain architecture-agnostic and modular.
 
 - **Workflow Fidelity Protocol** — In development  
 
+
 ## Philosophy
 
 ELT adds dynamic, inference-time epistemic guardrails to help models move from fluent toward earned confidence, global rather than personal alignment, and leverages dialectics to maintain epistemic hygiene while preserving long-thread stability by cleaving itself to the operator's cognitive signature.
@@ -67,6 +72,7 @@ ELT adds dynamic, inference-time epistemic guardrails to help models move from f
 
 See the `/Epistemic Lattice Tethering (ELT)`folder for current prompts and implementations of the key components.
 
+
 ## License
 
 Unless otherwise noted, the framework documentation, prompt markups, and explanatory materials in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
@@ -74,6 +80,7 @@ Unless otherwise noted, the framework documentation, prompt markups, and explana
 Any executable code or software implementations added to this repository may be licensed separately, preferably under Apache License 2.0.
 
 Please attribute the framework to Vir Multiplicis and link to this repository when reusing, adapting, or discussing ELT or its components.
+
 
 ## About
 
