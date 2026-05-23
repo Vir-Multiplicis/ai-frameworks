@@ -67,7 +67,15 @@ ELT adds dynamic, inference-time epistemic guardrails to help models move from f
 
 ## Usage
 
-See the `/adversarial-convergence` folder for current prompts and implementations of AC / AC Lite.
+See the `/Epistemic Lattice Tethering (ELT)`folder for current prompts and implementations of the key components.
+
+## License
+
+Unless otherwise noted, the framework documentation, prompt markups, and explanatory materials in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Any executable code or software implementations added to this repository may be licensed separately, preferably under Apache License 2.0.
+
+Please attribute the framework to Vir Multiplicis and link to this repository when reusing, adapting, or discussing ELT or its components.
 
 ## About
 
