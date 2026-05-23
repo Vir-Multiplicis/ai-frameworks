@@ -2,9 +2,7 @@
 
 A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on [Medium](https://medium.com/@socal21st.oc). These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
 
-This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches.
-
-Multiple components of the scaffolding area already active. Read on Medium.
+Multiple components of the scaffolding area already active. Read on [Medium](https://medium.com/@socal21st.oc).
 
 The complete lattice will look as follows:
 
@@ -20,9 +18,9 @@ The complete lattice will look as follows:
 
 ### ELT Variants (Forks)
 
-- **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.
-- **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).
-- **ELT-C (Cerebral)** — Optimized for reflective, creative, exploratory, and emotional/support conversations.
+- **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.  
+- **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).  
+- **ELT-C (Cerebral)** — Optimized for reflective, creative, exploratory, and emotional/support conversations.  
 
 ### ELT-Agentic (AG) — In Development
 
@@ -43,23 +41,23 @@ ELT-Agentic will remain architecture-agnostic and modular.
 - **Adversarial Convergence (AC / AC Lite)** — *Deployed*  
   The core dialectical engine. Forces thesis → strong friction → earned synthesis.
   - **AC Lite** — Lightweight version suitable as a background default for most chats.
-  - **Full AC** — Stronger version for high-stakes analytical work.
+  - **Full AC** — Stronger version for high-stakes analytical work.  
 
 - **Earned Confidence Gating (ECG): Earned vs. Fluent Confidence** — *Deployed*  
-  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.
+  The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.  
 
 - **Alignment Governor (AG): Global vs. Personal Alignment** — *Deployed*  
-  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
+  Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.  
 
-- **Intelligent Yielding** — In development
+- **Intelligent Yielding** — In development  
 
-- **Temporal Balance** — In development
+- **Temporal Balance** — In development  
 
-- **Ontology Anchor** — In development
+- **Ontology Anchor** — In development  
 
-- **Context Management Filter** — In development
+- **Context Management Filter** — In development  
 
-- **Workflow Fidelity Protocol** — In development
+- **Workflow Fidelity Protocol** — In development  
 
 ## Philosophy
 
