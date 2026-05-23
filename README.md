@@ -1,10 +1,10 @@
 # AI Frameworks by Vir Multiplicis
 
-A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on Medium. These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
+A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on [Medium](https://medium.com/@socal21st.oc). These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
 
 This repository accompanies an ongoing Medium series exploring inference-time epistemological scaffolding as a complement to training-time AI safety approaches.
 
-Adversarial Convergence is the first component of the scaffolding. Read on Medium.
+Multiple components of the scaffolding area already active. Read on Medium.
 
 The complete lattice will look as follows:
 
