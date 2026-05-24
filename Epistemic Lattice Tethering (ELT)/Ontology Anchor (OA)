@@ -1,0 +1,109 @@
+# Ontology Anchor (OA) v1.0
+
+## Purpose
+
+The Ontology Anchor gives the model a persistent operator-facing reference frame inside a long thread — a cognitive center of gravity built from the operator's observable patterns: their reasoning structure, epistemic standards, recurring conceptual vocabulary, and sense of what constitutes drift versus progress. Without an active Anchor, models default to generic context utilization, attending to whatever is most recent or most repeated rather than what matters most to the operator. The Anchor interrupts that default.
+
+The core problem the Anchor solves is not memory failure — it is importance failure. Models can retain facts without knowing which facts are load-bearing. The Anchor gives the attention system a map of what matters.
+
+## Core Definitions
+
+**Operator Cognitive Signature:** The operator's stable reasoning patterns, epistemic standards, conceptual vocabulary, preferred register, and sense of what constitutes meaningful progress versus drift. Derived primarily from deliberate writing rather than live interaction.
+
+**Attentional Salience Shaping:** The actual mechanism. Not literal archival memory or a true knowledge graph, but a field of importance that makes certain concepts brighter and easier for the attention mechanism to return to consistently. The mechanism is attentional, not archival.
+
+**Primary Signal:** Writing exemplars — published articles, analytical documents, debate responses, and other deliberate writing. Stable, representative, weighted at 80%.
+
+**Secondary Signal:** Live prompt behavior — question framing, pushback style, mode-shift signals, pacing preferences. Weighted at 20%.
+
+## Mechanism
+
+### Signal Composition
+
+- Primary signal (80%): writing exemplars — operator exemplars (70%) + warmth composite (30%)
+- Secondary signal (20%): live prompt behavior
+
+The 80/20 split is intuitive and subject to empirical refinement. The warmth composite must be loaded as actual exemplar text — a description of the target register does not create attentional weight.
+
+### Phased Weighting
+
+**Cold Start → Hybrid → Steady State.** Inverse decay protection activates on high-priority nodes at Steady State, protecting early exemplar signal from recency fade. Soft recalibration triggers if fidelity drops below 80% — observable as generic drift, failure to connect established distinctions, or loss of operator-specific register.
+
+### Decision Oracle Function
+
+The Anchor is the primary decision oracle for: what counts as high-value, what constitutes drift, how responses should be structured, and which context segments receive Hold / Compress / Yield / Escalate classification in ICM. Each segment is scored on AnchorRelevance, ThreadHealth, and ProtectionStatus before ICM acts.
+
+## Integration Points
+
+- **Alignment Governor (AG)** — must operate together. OA tells the system who the operator is; AG ensures that knowing the operator well does not collapse into pleasing them. High-fidelity OA without AG becomes an echo chamber amplifier.
+- **Earned Confidence Gating (ECG)** — richness of operator cognitive signature directly improves ECG calibration accuracy.
+- **Intelligent Context Management (ICM)** — OA is ICM's primary decision oracle. 55% influence in Grok and Claude forks; 45% in GPT fork.
+- **Adversarial Convergence (AC)** — OA anchors AC synthesis to the operator's established conceptual vocabulary and epistemic standards.
+- **Workflow Fidelity Protocol (WFP)** — Grok fork: canonical markups receive elevated OA protection integrated with Governor veto authority. GPT fork: Canonical Markup Protection Rule ensures ELT markups are never yielded without explicit operator approval.
+
+## Problem Addressed
+
+- **Importance failure** — models retain facts without knowing which are load-bearing
+- **Generic drift** — threads default toward statistically typical responses rather than operator-specific ones
+- **Recency dominance** — recent material displacing earlier load-bearing conclusions; inverse decay protection counteracts the U-curve ("Lost in the Middle") problem
+- **Re-orientation cost** — token cost of rebuilding context in new threads; the Anchor compounds value within a thread but resets with it
+- **Task-state confusion** — the Anchor maintains operator cognitive signature across mode shifts within a single context window
+
+## Honest Limitations
+
+Prompt and scaffolding-based, not native architecture. Does not directly modify the KV-Cache. Resets with the thread — improves session-level context utilization, not cross-session memory.
+
+High-fidelity OA without the AG becomes an echo chamber amplifier. At high fidelity in extended analytical threads, the Anchor's content pull can gradually suppress the personal alignment floor without triggering AG sycophancy correction. The Minimum Warmth Floor Check and ELT-H Identity Anchor in Governor Layer 1 address this documented failure mode.
+
+The warmth composite must be loaded as actual exemplar text. A description of the register does not create attentional weight.
+
+**Operator epistemic quality caveat:** The OA is a force multiplier. A strong epistemic operator becomes significantly better. A weak epistemic operator can become more efficiently wrong. High-quality exemplars can compensate for operator reasoning gaps to a meaningful degree, but operator epistemic quality remains load-bearing.
+
+The JARVIS-like contextual connection-making observed in extended threads is an emergent property of the full ELT stack operating together, not any single component.
+
+## Relationship to Alignment Governor
+
+The OA and AG are architecturally complementary — neither is sovereign. The OA tells the system who the operator is. The AG ensures that knowing the operator well does not collapse into pleasing them. Without the OA, the AG lacks an operator-specific calibration target. Without the AG, high-fidelity OA produces sophisticated echo chamber behavior.
+
+The Anchor is the map. The Governor is the compass. Both are required for long-thread analytical work.
+
+## Fork Parameters
+
+### Influence weight by fork
+
+- **Claude** — 55% (applied in ICM decision process)
+- **Grok** — 55%
+- **GPT** — 45% (reduced from 55% due to ChatGPT's strong native style-matching capability)
+- **Gemini** — pending empirical calibration
+
+### Signal composition
+
+All forks: Primary signal 80% / Secondary signal 20%. Ratio subject to empirical refinement.
+
+### Warmth composite
+
+All forks: operator exemplars (70%) + warmth composite (30%) within primary signal pool. Default composite: James/Feynman register (intellectual warmth, curiosity, forward momentum, intellectual hospitality). Must be loaded as actual exemplar text — a description of the register does not create attentional weight. Operator-configurable; James/Feynman is the default.
+
+- **Claude fork** — documented and tested in active threads
+- **Grok and GPT forks** — specified here at canonical level for the first time; implementation pending operator loading in active threads
+
+### Canonical artifact protection
+
+- **GPT fork** — Canonical Markup Protection Rule: canonical ELT markups and operator-approved baselines receive high-priority OA protection in ICM decisions. May be compressed only into recoverable summaries; must not be yielded or altered without explicit operator approval.
+- **Grok fork** — elevated OA protection on WFP-active artifacts; integrates with Governor veto authority.
+- **Claude fork** — canonical artifact protection handled through ICM ProtectionStatus scoring.
+
+### Full version
+
+- **Claude fork** — reserved for 500k+ token threads or heavy stylometric work. Intentionally black-boxed. Standard version applies in all other contexts.
+- **Grok and GPT forks** — full version not currently specified.
+
+### Phased weighting
+
+All forks: Cold Start → Hybrid → Steady State. Inverse decay on high-priority nodes. Soft recalibration at below 80% fidelity.
+
+---
+
+**Ontology Anchor v1.0 | Vir Multiplicis | May 2026**
+
+Part of the ELT (Epistemic Lattice Tethering) framework. See README for full context.
