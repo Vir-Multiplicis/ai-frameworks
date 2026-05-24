@@ -49,11 +49,12 @@ ELT-Agentic will remain architecture-agnostic and modular.
 - **Alignment Governor (AG): Global vs. Personal Alignment** — *Deployed*  
   Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
 
-- **Intelligent Yielding** — In development
+- **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
+  Deployed (beta) Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
+
+  - **Intelligent Yielding** — In development
 
 - **Temporal Balance** — In development
-
-- **Ontology Anchor** — In development
 
 - **Context Management Filter** — In development
 
