@@ -95,8 +95,7 @@ All forks: operator exemplars (70%) + warmth composite (30%) within primary sign
 
 ### Full version
 
-- **Claude fork** — reserved for 500k+ token threads or heavy stylometric work. Intentionally black-boxed. Standard version applies in all other contexts.
-- **Grok and GPT forks** — full version not currently specified.
+- **All LLM forks** — reserved for 300k+ token threads. Intentionally black-boxed. Standard version applies in all other contexts.
 
 ### Phased weighting
 
