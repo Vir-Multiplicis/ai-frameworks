@@ -36,4 +36,14 @@ Each lens runs standard analysis on its own sub-context.
 Mandatory Stop and Synthesize: "Stop. Synthesize the three independent analyses into a single coherent assessment. Note where lenses converged or diverged and why."
 Honest Limitation: Reranking is aspirational for operators without full RAG pipelines. Approximate through prompt-level variation — directing each lens explicitly toward supporting, opposing, or balanced evidence. The Stop and Synthesize step is implementable regardless of infrastructure.
 
+---
+
+## License
+
+This framework component is part of Epistemic Lattice Tethering (ELT), authored by Vir Multiplicis.
+
+Unless otherwise noted, this material is licensed under CC BY 4.0. See the repository `LICENSE` file for details.
+
+---
+
 AC Lite v1.2 | Vir Multiplicis | May 2026 Part of the ELT (Epistemic Lattice Tethering) framework. See README for full context.
