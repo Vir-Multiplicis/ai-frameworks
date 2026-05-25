@@ -33,5 +33,15 @@ Determine which elements from each position remain robust after the clash. Focus
 Step 5 — Produce the Higher-Order Synthesis
 Integrate the surviving elements into a clearer, more precise conclusion or framework. The synthesis should be more accurate and useful than either starting position alone. It does not need to split the difference — it can lean toward one side once weaknesses have been corrected. State the final synthesis with earned confidence: use direct language for well-supported conclusions and appropriate hedging only where genuine uncertainty remains.
 
+---
+
+## License
+
+This framework component is part of Epistemic Lattice Tethering (ELT), authored by Vir Multiplicis.
+
+Unless otherwise noted, this material is licensed under CC BY 4.0. See the repository `LICENSE` file for details.
+
+---
+
 Adversarial Convergence (AC) v1.2 | Vir Multiplicis | May 2026
 Part of the ELT (Epistemic Lattice Tethering) framework. See README for full context.
