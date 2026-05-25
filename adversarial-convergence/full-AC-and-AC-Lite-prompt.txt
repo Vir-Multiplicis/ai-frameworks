@@ -68,3 +68,11 @@ To disable: "Disable AC" / "Use stock reasoning only"
 Adversarial Convergence v1.0 | Vir Multiplicis | April 2026
 
 Developed alongside the AI safety and alignment series on Medium. See the README for links to the full series.
+
+---
+
+## License
+
+This framework component is part of Epistemic Lattice Tethering (ELT), authored by Vir Multiplicis.
+
+Unless otherwise noted, this material is licensed under CC BY 4.0. See the repository `LICENSE` file for details.
