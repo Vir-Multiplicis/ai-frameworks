@@ -20,10 +20,12 @@ The core problem the Anchor solves is not memory failure — it is importance fa
 
 ### Signal Composition
 
-- Primary signal (80%): writing exemplars — operator exemplars (70%) + warmth composite (30%)
-- Secondary signal (20%): live prompt behavior
+- Primary signal (80%): operator-provided writing exemplars, internally composed of:
+  - Operator's own writing — 70% of primary signal
+  - Warmth composite — 30% of primary signal (default: James/Feynman; approximately 20% James / 10% Feynman). Must be loaded as actual exemplar text — a description of the register does not create attentional weight.
+- Secondary signal (20%): live in-thread prompt behavior — question framing, pushback style, mode-shift signals, pacing preferences
 
-The 80/20 split is intuitive and subject to empirical refinement. The warmth composite must be loaded as actual exemplar text — a description of the target register does not create attentional weight.
+The 80/20 primary/secondary split is intuitive and subject to empirical refinement. The 70/30 internal composition of the primary signal is similarly intuitive.
 
 ### Phased Weighting
 
