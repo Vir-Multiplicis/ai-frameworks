@@ -50,7 +50,7 @@ ELT-Agentic will remain architecture-agnostic and modular.
   Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
 
 - **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
-  Deployed (beta) Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
+  Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
 
 - **Intelligent Yielding** — In development
 
