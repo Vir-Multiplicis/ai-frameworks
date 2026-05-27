@@ -6,7 +6,7 @@ Multiple components of the scaffolding area already active. Read on [Medium](htt
 
 The complete lattice will look as follows:
 
-## ELT — Epistemic Lattice Tethering
+## Epistemic Lattice Tethering — ELT
 
 ## Current Status
 
