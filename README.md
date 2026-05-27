@@ -12,8 +12,6 @@ The complete lattice will look as follows:
 
 **Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, and **Ontology Anchor (OA)** are currently implemented and ready to use.
 
-**Earned Confidence Gating (ECG)**: Deployed in beta version.
-
 **In Development**: Several components are in internal beta testing or early development.
 
 ### ELT Variants (Forks)
