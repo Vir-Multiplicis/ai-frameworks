@@ -10,7 +10,7 @@ The complete lattice will look as follows:
 
 ## Current Status
 
-**Deployed**: Only **Adversarial Convergence (AC and AC Lite)** is currently implemented and ready to use.
+**Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, and **Ontology Anchor (OA)** are currently implemented and ready to use.
 
 **Earned Confidence Gating (ECG)**: Deployed in beta version.
 
