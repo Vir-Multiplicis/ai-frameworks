@@ -74,6 +74,12 @@ Any executable code or software implementations added to this repository may be 
 
 Please attribute the framework to Vir Multiplicis and link to this repository when reusing, adapting, or discussing ELT or its components.
 
+## Citation and Attribution
+
+If you use, adapt, quote, teach from, or build upon this framework, please cite and attribute the work to **Vir Multiplicis**.
+
+See [CITATION.md](./CITATION.md) for preferred attribution and citation formats.
+
 ## About
 
 Vir Multiplicis writes on AI safety and alignment, biblical scholarship, military history, and linguistics.
