@@ -50,20 +50,20 @@ ELT-Agentic will remain architecture-agnostic and modular.
 - **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
   Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
 
-**Temporal Balance (TB)** — Deployed
+- **Temporal Balance (TB)** — Deployed
   Addresses the "Lost in the Middle" problem in long-context threads through W-shaped attention weighting. Protects early exemplar signal from recency
 fade, actively boosts middle-context attention, and prevents recent material from dominating at the expense of load-bearing earlier content.
 
-**Context Management (CM)** — Deployed
+- **Context Management (CM)** — Deployed
   Executive context-governance layer. Manages context load by selectively holding, compressing, yielding, or escalating material while protecting
 high-value content. Distinguishes between what is worth preserving and what is worth keeping active — preventing context sludge without losing valuable
 prior work.
 
-**Intelligent Yielding (IY)** — Beta
+- **Intelligent Yielding (IY)** — Beta
   Governs the generation decision in the moment. The practice of epistemic humility: knowing when to stop generating rather than continuing to
 reconstruct. Prevents fluent continuation across evidence gaps from masquerading as honest output.
 
-**Workflow Fidelity Protocol (WFP)** — Beta
+- **Workflow Fidelity Protocol (WFP)** — Beta
   Enforces literal fidelity when working with operator-provided artifacts, markups, code, and documents. Explicitly invoked rather than persistently
 active. Addresses the Byzantine Scribe failure mode — the model's tendency to silently improve, rephrase, or polish material it was instructed to
 reproduce exactly.
