@@ -45,37 +45,47 @@ exemplar is located online.
 
 ## What to load
 
-The OA primary signal is composed of two parts:
+The OA primary signal is composed of three parts:
 
-**1. Your own writing — 70% of primary signal**
-
-Published articles, analytical documents, debate responses, case studies, 
-or any deliberate writing that reflects how you actually think. The more 
-representative and varied, the better. Casual writing and off-the-cuff messages 
-are lower signal — choose your best, most considered work.
+**1. Your own writing — 60% of primary signal**
+Published articles, analytical documents, debate responses, case studies,
+or any deliberate writing that reflects how you actually think. The more
+representative and varied, the better. Casual writing and off-the-cuff
+messages are lower signal — choose your best, most considered work.
 
 Or, the provided exemplars in the Geopolitical and B2B Consultancy use cases.
 
-**2. Warmth composite — 30% of primary signal**
-
-The default composite is James/Feynman: William James for intellectual warmth 
-and hospitality toward the reader, Richard Feynman for curiosity, directness, 
-and forward momentum. Pre-selected exemplar texts are in the `/exemplars` 
+**2. Warmth composite — 20% of primary signal**
+The default composite is James/Feynman: William James for intellectual warmth
+and hospitality toward the reader, Richard Feynman for curiosity, directness,
+and forward momentum. Pre-selected exemplar texts are in the `/exemplars`
 folder of this directory.
 
-You can substitute your own warmth composite if James/Feynman doesn't fit 
+You can substitute your own warmth composite if James/Feynman doesn't fit
 your use case. But, the James/Feynman register has been very effective during
-testing, regardless of the use category. The key is that it must be loaded as 
+testing, regardless of the use category. The key is that it must be loaded as
 actual text.
 
-James is public domain and his exemplar is provided in the repo.  Feynman is
-not public domain, but is freely available online.  A file pointing you to 
+James is public domain and his exemplar is provided in the repo. Feynman is
+not public domain, but is freely available online. A file pointing you to
 where you can get Feynman's exemplars online is provided as a reference file.
 
-Testing has shown that both James and Feynman's registers are important to 
+Testing has shown that both James and Feynman's registers are important to
 get the most out of ELT-H, the Hybrid version. It is highly recommended you
 input both into ELT-H, even if you put in mostly your own personal exemplars
 into ELT.
+
+**3. Governance instructions — 20% of primary signal**
+The fork-specific OA Loading Package for your model. This package loads the
+AG, ECG, IY, CM, and WFP governance components as positive behavioral
+attractors rather than abstract rules — giving the model positive generation
+targets rather than prohibitions.
+
+The governance package must be loaded as actual text alongside your writing
+exemplars and warmth composite. All three elements are required for full OA
+function. Loading only exemplars without the governance package will produce
+a well-calibrated but less governed collaboration — the components will have
+less salience and may not fire reliably across a long thread.
 
 ---
 
@@ -83,13 +93,23 @@ into ELT.
 
 At the start of a new thread, before any substantive work begins:
 
-1. Paste your writing exemplars directly into the chat as text
-2. Paste the James/Feynman exemplar texts from the `/exemplars` folder 
+1. Paste your writing exemplars directly into the chat as text — either
+   your own published or analytical writing, or company-approved exemplars
+   if deploying ELT in a professional or organizational context. Sample
+   exemplar sets for geopolitical analysis and B2B consultancy work are
+   available in the `/exemplars` folder for operators who do not yet have
+   their own exemplar library.
+2. Paste the James/Feynman exemplar texts from the `/exemplars` folder
    (or your own warmth composite)
-3. Tell the model the exemplars have been loaded and ask it to confirm 
+3. Paste the governance instructions for your model fork from the
+   `/exemplars` folder:
+   - `OA_Loading_Package_Claude.md` for Claude
+   - `OA_Loading_Package_GPT.md` for GPT
+   - `OA_Loading_Package_Grok.md` for Grok
+4. Tell the model the exemplars have been loaded and ask it to confirm
    the Ontology Anchor is active
 
-That's it. The model will enter Hybrid phase and begin calibrating to your 
+That's it. The model will enter Hybrid phase and begin calibrating to your
 cognitive signature from the live prompt behavior in the thread.
 
 ---
