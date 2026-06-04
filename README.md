@@ -41,14 +41,14 @@ ELT-Agentic will remain architecture-agnostic and modular.
   - **AC Lite** — Lightweight version suitable as a background default for most chats.
   - **Full AC** — Stronger version for high-stakes analytical work.
 
+- **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
+  Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
+  
 - **Earned Confidence Gating (ECG): Earned vs. Fluent Confidence** — *Deployed*  
   The core mechanism that distinguishes earned confidence from fluent confidence. Forces the model to internally calibrate the strength of its claims and decisions before rendering them.
 
 - **Alignment Governor (AG): Global vs. Personal Alignment** — *Deployed*  
   Maintains calibrated balance between Global Alignment and Personal Alignment. Prevents sycophancy compounding across extended interactions.
-
-- **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
-  Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
 
 - **Temporal Balance (TB)** — *Deployed*  
   Addresses the "Lost in the Middle" problem in long-context threads through W-shaped attention weighting. Protects early exemplar signal from recency
