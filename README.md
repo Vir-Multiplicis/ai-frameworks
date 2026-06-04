@@ -50,7 +50,7 @@ ELT-Agentic will remain architecture-agnostic and modular.
 - **Ontology Anchor (OA): Operator Cognitive Signature** — *Deployed*  
   Constructs a persistent model of the operator's cognitive signature from writing exemplars and live prompt behavior. Functions as the primary decision oracle for value, drift detection, and response structure across extended threads. The map that tells the system what matters to the operator and why.
 
-- **Temporal Balance (TB)** — *Deployed* 
+- **Temporal Balance (TB)** — *Deployed*  
   Addresses the "Lost in the Middle" problem in long-context threads through W-shaped attention weighting. Protects early exemplar signal from recency
 fade, actively boosts middle-context attention, and prevents recent material from dominating at the expense of load-bearing earlier content.
 
