@@ -130,7 +130,9 @@ are approximate — observed behavior varies by operator and use case.
 **Cold Start** (roughly turns 1–15)
 Anchor initializing. Exemplars are loaded but the model hasn't yet
 confirmed your patterns through live interaction. Responses will be
-better calibrated than stock but not yet fully locked in.
+better calibrated than stock but not yet fully locked in.  At this 
+stage start with something simple, small talk, meta-analysis of 
+exemplars, overview of goals, alignment expectations, etc.
 
 **Hybrid** (roughly turns 15–30)
 Active calibration. The model is learning your patterns from how you
