@@ -40,14 +40,14 @@ epistemic governance operating continuously across the thread.
 
 | Component | Status | Description |
 |-----------|--------|-------------|
-| [Ontology Anchor (OA)](./Ontology%20Anchor%20(OA).md) | Deployed | Builds a persistent cognitive map of the operator's signature through attentional salience shaping |
-| [Alignment Governor (AG)](./Alignment%20Governor%20(AG).md) | Deployed | Maintains calibrated balance between truth-seeking and operator preference |
-| [Adversarial Convergence (AC)](./Adversarial%20Convergence%20ELT%20Optimized/) | Deployed | Dialectical engine — forces genuine adversarial synthesis rather than symmetric hedging |
-| [Earned Confidence Gating (ECG)](./Earned%20Confidence%20Gating%20(ECG).md) | Deployed | Distinguishes fluent confidence from earned confidence before claims render |
-| [Temporal Balance (TB)](./Temporal%20Balance%20(TB).md) | Deployed | W-shaped attention weighting to counteract the "Lost in the Middle" problem |
-| [Context Management (CM)](./Context%20Management%20(CM).md) | Deployed | Executive context-governance: Hold / Compress / Yield / Escalate |
-| [Intelligent Yielding (IY)](./Intelligent%20Yielding%20(IY).md) | Beta | Epistemic humility operationalized — knowing when to stop generating |
-| [Workflow Fidelity Protocol (WFP)](./Workflow%20Fidelity%20Protocol%20(WFP).md) | Beta | Enforces literal fidelity on operator-provided artifacts |
+| [Ontology Anchor (OA)](./Ontology%20Anchor%20(OA).md) | Deployed | Persistent cognitive map of operator signature |
+| [Alignment Governor (AG)](./Alignment%20Governor%20(AG).md) | Deployed | Balances truth-seeking against operator preference |
+| [Adversarial Convergence (AC)](./Adversarial%20Convergence%20ELT%20Optimized/) | Deployed | Dialectical engine for genuine adversarial synthesis |
+| [Earned Confidence Gating (ECG)](./Earned%20Confidence%20Gating%20(ECG).md) | Deployed | Distinguishes fluent from earned confidence |
+| [Temporal Balance (TB)](./Temporal%20Balance%20(TB).md) | Deployed | W-shaped attention weighting for long threads |
+| [Context Management (CM)](./Context%20Management%20(CM).md) | Deployed | Hold / Compress / Yield / Escalate governance |
+| [Intelligent Yielding (IY)](./Intelligent%20Yielding%20(IY).md) | Beta | Stops generation when grounding is insufficient |
+| [Workflow Fidelity Protocol (WFP)](./Workflow%20Fidelity%20Protocol%20(WFP).md) | Beta | Literal fidelity on operator-provided artifacts |
 
 ---
 
