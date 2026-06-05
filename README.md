@@ -76,6 +76,18 @@ ELT adds dynamic, inference-time epistemic guardrails to help models move from f
 
 See the `/Epistemic Lattice Tethering (ELT)` folder for current prompts and implementations of the key components.
 
+## Kernelization — Coming Soon
+
+ELT components are currently expressed as full markup instructions loaded at thread open. Kernelization is the next architectural step: distilling
+each component down to its minimum sufficient representation — the smallest expression that preserves full behavioral function without the overhead of
+complete documentation.
+
+A kernelized ELT stack loads faster, consumes less context budget, and reduces cold-start cost without sacrificing governance fidelity. The kernel
+is not a summary. It is a precision-engineered attractor — the irreducible core that produces the same behavioral outcomes as the full component at
+lower attentional cost.
+
+Kernelization work is currently in progress. Updates will be versioned and documented here as components are kernelized and tested across model forks.
+
 ## License
 
 Unless otherwise noted, the framework documentation, prompt markups, and explanatory materials in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
