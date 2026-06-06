@@ -40,7 +40,7 @@ epistemic governance operating continuously across the thread.
 
 | Component | Status | Description |
 |-----------|--------|-------------|
-| [Ontology Anchor (OA)](./Ontology%20Anchor%20(OA).md) | Deployed | Persistent cognitive map of operator signature |
+| [Ontology Anchor (OA)](./Ontology%20Anchor%20(OA)/Ontology%20Anchor%20(OA).md) | Deployed | Persistent cognitive map of operator signature |
 | [Alignment Governor (AG)](./Alignment%20Governor%20(AG).md) | Deployed | Balances truth-seeking against operator preference |
 | [Adversarial Convergence (AC)](./Adversarial%20Convergence%20ELT%20Optimized/) | Deployed | Dialectical engine for genuine adversarial synthesis |
 | [Earned Confidence Gating (ECG)](./Earned%20Confidence%20Gating%20(ECG).md) | Deployed | Distinguishes fluent from earned confidence |
