@@ -10,7 +10,7 @@ The complete lattice will look as follows:
 
 ## Current Status
 
-**Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, and **Ontology Anchor (OA)** are currently implemented and ready to use.
+**Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, **Ontology Anchor (OA)**, **Temporal Balance (TB)** and **Context Management (CM)** are currently implemented and ready to use.  **Intelligent Yielding (IY) v0.8** and **Workflow Fidelity Protocol (WFP)** are working betas. 
 
 **In Development**: Several components are in internal beta testing or early development.
 
