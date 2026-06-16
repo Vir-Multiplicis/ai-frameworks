@@ -62,9 +62,6 @@ it effectively. The framing prompt establishes that up front.
 > mainly by helping you understand how I think so your help lands more
 > accurately.
 >
-> The working threads linked in the repository are development artifacts,
-> not demonstrations — they contain the failures that produced the fixes.
->
 > Please read it and tell me, in your own words, what you take its purpose
 > to be — and whether the way of working it describes makes sense to you.
 > Then we'll start the actual work.
