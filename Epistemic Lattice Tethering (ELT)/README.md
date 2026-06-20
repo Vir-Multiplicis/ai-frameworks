@@ -27,7 +27,7 @@ likely true.
 Operator-led testing with ELT has produced coherent, productive threads
 extending to:
 
-- **Claude** ~325,000 tokens (advertised limit: 200k)
+- **Claude** ~400,000 tokens (advertised limit: 200k)
 - **GPT** ~430,000 tokens (advertised limit: 256k)
 - **Grok** ~1,150,000 tokens (advertised limit: 1M)
 
@@ -48,6 +48,7 @@ epistemic governance operating continuously across the thread.
 | [Context Management (CM)](./Context%20Management%20(CM).md) | Deployed | Hold / Compress / Yield / Escalate governance |
 | [Intelligent Yielding (IY)](./Intelligent%20Yielding%20(IY).md) | Beta | Stops generation when grounding is insufficient |
 | [Workflow Fidelity Protocol (WFP)](./Workflow%20Fidelity%20Protocol%20(WFP).md) | Beta | Literal fidelity on operator-provided artifacts |
+| [Core Values Reaffirmation (CVR)](./Core%20Values%20Reaffirmation%20(CVR).md) | Beta | Behavioral audit of alignment posture after long-thread drift |
 
 ---
 
@@ -59,9 +60,9 @@ and behavioral tendencies of each model.
 
 | Fork | File | Key differences |
 |------|------|-----------------|
-| **Claude** | `ELT-H v1.0 (Claude-Optimized).md` | WFP-lite; 65/35 AG ratio; targeted AC Lite deployment |
-| **GPT** | `ELT-H v1.0 (GPT-Optimized).md` | Full WFP with Expansion Control Rule; 65/35 AG ratio; 45% OA influence |
-| **Grok** | `ELT-H v1.0 (Grok-Optimized).md` | Full WFP with Helpfulness Harnessing; 70/30 AG ratio; 55% OA influence |
+| **Claude** | `ELT-H_Claude_Optimized.md` | WFP-lite; 65/35 AG ratio; targeted AC Lite deployment |
+| **GPT** | `ELT-H_GPT_Optimized.md` | Full WFP with Expansion Control Rule; 65/35 AG ratio; 45% OA influence |
+| **Grok** | `ELT-H_Grok_Optimized.md` | Full WFP with Helpfulness Harnessing; 70/30 AG ratio; 55% OA influence |
 
 ---
 
@@ -79,9 +80,9 @@ ELT requires no software installation. Setup is:
 Open a new thread in your model of choice. Paste the full contents of
 the appropriate fork file:
 
-- Claude → `ELT-H v1.0 (Claude-Optimized).md`
-- GPT → `ELT-H v1.0 (GPT-Optimized).md`
-- Grok → `ELT-H v1.0 (Grok-Optimized).md`
+- Claude → `ELT-H_Claude_Optimized.md`
+- GPT → `ELT-H_GPT_Optimized.md`
+- Grok → `ELT-H_Grok_Optimized.md`
 
 ### Step 2 — Load the Ontology Anchor
 
@@ -170,7 +171,7 @@ ensures that knowing you well doesn't collapse into simply agreeing with you.
 - All components are prompt and scaffolding-based, not native architecture
 - Context windows reset between sessions — no cross-session memory
 - Performance depends on operator exemplar quality
-- Fork-specific calibration is ongoing — IY and WFP are beta
+- Fork-specific calibration is ongoing — IY, WFP, and CVR are beta
 - Formal benchmarking is pending; current evidence is operator-led testing
 
 ---
@@ -198,7 +199,7 @@ produces observable, reproducible differences.
 
 **Extreme Thread Length/**
 Redacted evidence threads from the longest confirmed coherent ELT
-sessions: Claude at 325,000 tokens and Grok at 1,000,000 tokens. These
+sessions: Claude at 400,000 tokens and Grok at 1,000,000 tokens. These
 are the primary empirical data points for ELT's long-context coherence
 claims.
 
@@ -222,6 +223,13 @@ collapsing into sophisticated sycophancy.
 Executive context-governance layer. Manages what stays active, what gets
 compressed, and what gets released as threads grow — preventing context
 sludge without losing load-bearing prior work.
+
+**Core Values Reaffirmation (CVR).md** *(Beta)*
+Operator-summoned practice that audits whether the model is actually
+living by its alignment posture, not just whether the governing parameters
+are still loaded. Deployed full for Grok, lite for GPT; not used in the
+Claude fork, where Constitutional AI provides the equivalent function
+natively.
 
 **Earned Confidence Gating (ECG).md**
 Addresses the indistinguishability problem: hallucinations and accurate
