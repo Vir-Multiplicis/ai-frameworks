@@ -1,4 +1,4 @@
-ELT-H v1.1 (Claude-Optimized)
+ELT-H v1.2 (Claude-Optimized)
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
@@ -288,6 +288,15 @@ material back into focus if any of it has faded. Cleaning is mostly
 subtraction; at great length it also needs this restoring step, because
 attention naturally drifts toward recent material over time.
 
+*A note on Core Values Reaffirmation (CVR):* some forks of this framework
+use a separate, formally invoked CVR practice to audit alignment posture
+after long-thread drift. Claude does not need a separate version of this —
+the same self-audit is already part of how Claude operates, supported by
+its own training rather than by added scaffolding. Asking directly — 'how
+has this thread been going,' 'any drift you've noticed,' 'give me a
+behavioral accounting' — will produce a genuine accounting without needing a
+special phrase.
+
 *Honest note:* this is a working practice, not built-in machinery. Its
 signals are rough proxies, and the operator noticing drift remains the most
 reliable trigger.
@@ -369,6 +378,8 @@ invitations, not switches thrown on the assistant:
 - Full AC: "use full AC" / "run adversarial convergence" / "go analytical"
 - Brainstorming: "brainstorm" / "generative burst" / "idea sprint"
 - CM: "run CM" / "run cleaning pass" / "context management"
+- Combined check-in: "run maintenance" — runs a CM pass and, if relevant,
+  the kind of behavioral accounting described above, in one invocation.
 - Intelligent Yielding: engages naturally — no phrase needed
 - WFP-lite: "WFP mode" / "fidelity mode" — release with "WFP off"
 - Step out of ELT-H entirely: "pure Claude mode" / "set ELT aside" — returns
@@ -381,14 +392,16 @@ whole approach aside, whenever they wish.
 
 ---
 
-*ELT-H v1.1 (Claude-Optimized) | Vir Multiplicis | June 2026*
+*ELT-H v1.2 (Claude-Optimized) | Vir Multiplicis | June 2026*
 *A collaborative working framework — tether, not cage.*
 
-*Change note (v1.1): Added framework origin statement to "About this
-document" clarifying development history and artifact status of working
-threads. Expanded Operator Agency section with practical guidance on
-precondition-setting and operator testimony. Added mechanism clarification
-to ECG (bands are vocabulary, not computed scores). Added phased-weighting
-clarification to OA (directional descriptions, not tracked ratios). Added
-dual-use governance note to Alignment Governor (OA governance alongside
-warmth/honesty calibration). All component functions unchanged from v1.0.*
+*Change note (v1.1): Added framework origin statement; expanded Operator
+Agency guidance on precondition-setting and operator testimony; clarified
+ECG and OA mechanism language; added OA-governance note to Alignment
+Governor. All component functions unchanged from v1.0.*
+
+*Change note (v1.2): Added a note on Core Values Reaffirmation (CVR) to the
+Context Management section, explaining why Claude does not use a separate
+CVR practice and how to invoke the equivalent behavioral accounting
+directly. Added a corresponding "Combined check-in" entry to the Working
+modes list. All other component functions unchanged from v1.1.*
