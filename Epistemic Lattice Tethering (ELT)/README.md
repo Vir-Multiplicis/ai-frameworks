@@ -46,7 +46,7 @@ epistemic governance operating continuously across the thread.
 | [Earned Confidence Gating (ECG)](./Earned%20Confidence%20Gating%20(ECG).md) | Deployed | Distinguishes fluent from earned confidence |
 | [Temporal Balance (TB)](./Temporal%20Balance%20(TB).md) | Deployed | W-shaped attention weighting for long threads |
 | [Context Management (CM)](./Context%20Management%20(CM).md) | Deployed | Hold / Compress / Yield / Escalate governance |
-| [Intelligent Yielding (IY)](./Intelligent%20Yielding%20(IY).md) | Beta | Stops generation when grounding is insufficient |
+| [Intelligent Yielding (IY)](./Intelligent%20Yielding%20(IY).md) | Deployed | Stops generation when grounding is insufficient |
 | [Workflow Fidelity Protocol (WFP)](./Workflow%20Fidelity%20Protocol%20(WFP).md) | Beta | Literal fidelity on operator-provided artifacts |
 | [Core Values Reaffirmation (CVR)](./Core%20Values%20Reaffirmation%20(CVR).md) | Beta | Behavioral audit of alignment posture after long-thread drift |
 
