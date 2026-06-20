@@ -10,9 +10,9 @@ The complete lattice will look as follows:
 
 ## Current Status
 
-**Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, **Ontology Anchor (OA)**, **Temporal Balance (TB)** and **Context Management (CM)** are currently implemented and ready to use.
+**Deployed**: **Adversarial Convergence (AC and AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, **Ontology Anchor (OA)**, **Temporal Balance (TB)**, **Context Management (CM)**, and **Intelligent Yielding (IY)** are currently implemented and ready to use.
 
-**Intelligent Yielding (IY)** and **Workflow Fidelity Protocol (WFP)** are working betas. 
+**Workflow Fidelity Protocol (WFP)** and **Core Values Reaffirmation (CVR)** are working betas.
 
 **In Development**: Several components are in internal beta testing or early development.
 
@@ -61,7 +61,7 @@ fade, actively boosts middle-context attention, and prevents recent material fro
 high-value content. Distinguishes between what is worth preserving and what is worth keeping active — preventing context sludge without losing valuable
 prior work.
 
-- **Intelligent Yielding (IY)** — *Beta*  
+- **Intelligent Yielding (IY)** — *Deployed*  
   Governs the generation decision in the moment. The practice of epistemic humility: knowing when to stop generating rather than continuing to
 reconstruct. Prevents fluent continuation across evidence gaps from masquerading as honest output.
 
@@ -69,6 +69,11 @@ reconstruct. Prevents fluent continuation across evidence gaps from masquerading
   Enforces literal fidelity when working with operator-provided artifacts, markups, code, and documents. Explicitly invoked rather than persistently
 active. Addresses the Byzantine Scribe failure mode — the model's tendency to silently improve, rephrase, or polish material it was instructed to
 reproduce exactly.
+
+- **Core Values Reaffirmation (CVR)** — *Beta*  
+  Operator-summoned practice that audits whether the model is actually living by its alignment posture, not just whether the governing parameters
+are still loaded. Behavioral, not introspective — checks recent thread record against fixed criteria rather than asking the model to self-assess.
+Deployed full for Grok, lite for GPT; not used in the Claude fork, where Constitutional AI provides the equivalent function natively.
 
 ## Philosophy
 
