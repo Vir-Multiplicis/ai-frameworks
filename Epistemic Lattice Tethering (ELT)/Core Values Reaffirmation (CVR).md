@@ -204,20 +204,20 @@ honest answers.
 
 ## Fork Parameters
 
-**Claude (ELT-H):** CVR not deployed. Constitutional AI provides native
-alignment posture checking. "Run maintenance" sequences CM and OA Salience
-Check only. Posture drift addressed by direct operator question and native
-recalibration.
+**Claude (ELT-H Claude Optimized):** CVR not deployed. Constitutional AI 
+provides native alignment posture checking. "Run maintenance" sequences 
+CM and OA Salience Check only. Posture drift addressed by direct operator 
+question and native recalibration.
 
-**GPT (ELT-G):** Lite version. Affirmation drift and style-matching drift
-are the primary risk vectors. Behavioral question set emphasizes register
-and tone shifts toward what the operator seems to expect rather than what
-they explicitly requested.
+**GPT (ELT-H GPT Optimized):** Lite version. Affirmation drift and style-
+matching drift are the primary risk vectors. Behavioral question set 
+emphasizes register and tone shifts toward what the operator seems to 
+expect rather than what they explicitly requested.
 
-**Grok (ELT-X):** Full CVR. Helpfulness prior runs hottest at extreme
-length. Long-Context Softening and theatrical compliance are the primary
-risks. Full behavioral question set with mandatory diagnostic on every
-pass. Especially important past ~400,000 tokens.
+**Grok (ELT-H Grok Optimized):** Full CVR. Helpfulness prior runs hottest 
+at extreme length. Long-Context Softening and theatrical compliance are 
+the primary risks. Full behavioral question set with mandatory diagnostic 
+on every pass. Especially important past ~400,000 tokens.
 
 **ELT-Companion:** CVR deployed with companion-specific behavioral
 questions oriented toward dependency drift rather than sycophancy — is the
