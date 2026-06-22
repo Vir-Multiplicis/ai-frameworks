@@ -99,8 +99,6 @@ output.
 
 > I'm sharing a working framework I use for long analytical collaboration.
 > Please implement it as your operating register for this conversation.
-> After reading, confirm what's active and flag any components you have
-> questions about.
 
 ### What to expect
 
@@ -142,8 +140,6 @@ specifically for this.
 
 > I'm sharing a working framework I use for long analytical collaboration.
 > Please implement it as your operating register for this conversation.
-> After reading, confirm what's active and flag any components you have
-> questions about.
 
 ### What to expect
 
