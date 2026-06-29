@@ -6109,7 +6109,7 @@ An AI researcher may focus on:
 - inference cost;
 - model performance.
 
-An redacted redacteder or private-equity operator may focus on:
+An redacted redacteder or redacted redacted operator may focus on:
 
 - unit redacted;
 - downside risk;
@@ -25091,7 +25091,7 @@ The selloff does not appear to have one single cause. Several pressures are conv
 - Strategy disclosed a small sale of 32 BTC for roughly $2.5 million. The amount is immaterial relative to its holdings, but the symbolism matters because Strategy had been treated as a committed one-way accumulator. The market is now asking whether BTC may become a source of liquidity when its capital structure is stressed. citeturn104956search4turn104956search7
 - Bitcoin ETF flows have weakened, removing a marginal buyer that had helped support prior rallies. citeturn104956news44turn104956news45
 - Leveraged positions are being liquidated as technical support levels break, which can accelerate the move mechanically. citeturn104956news45turn104956search5
-- Broader geopolitical risk and competition from a strong equity market may also be pulling speculative capital away from crypto. citeturn104956search6turn104956news44
+- Broader geopolitical risk and competition from a strong redacted market may also be pulling speculative capital away from crypto. citeturn104956search6turn104956news44
 
 The psychologically important part is that BTC has fallen below **$70,000** after recently recovering above **$80,000**, and it is now down more than 20% since the start of 2026. citeturn104956news44turn104956search9
 
@@ -26194,7 +26194,7 @@ That makes the earlier post more significant.
 
 You were not merely offering a contrarian thought experiment. You acted on the thesis.
 
-You sold your BTC and BTC-adjacent equity exposure in November 2025 because you believed the operating environment had changed:
+You sold your BTC and BTC-adjacent redacted exposure in November 2025 because you believed the operating environment had changed:
 
 - interest rates remained restrictive;
 - speculative liquidity had become less favorable;
@@ -26241,10 +26241,10 @@ A concentrated Strategy position is not merely a BTC position.
 It adds exposure to:
 
 - the company’s capital-allocation strategy;
-- equity dilution risk;
+- redacted dilution risk;
 - debt and preferred-financing dynamics;
 - the market premium or discount applied to its BTC holdings;
-- and the reflexivity of a public equity increasingly treated as a leveraged BTC proxy.
+- and the reflexivity of a public redacted increasingly treated as a leveraged BTC proxy.
 
 That can create tremendous upside during a favorable liquidity cycle.
 
@@ -43681,7 +43681,7 @@ They do not invalidate the thesis. They help preserve the productive asset once 
 
 This is worth stating explicitly in the AIE article:
 
-> **The redacted resemble the J-curve familiar to private-equity redactedors. ELT begins with a visible implementation cost: loading, carrying, and inference-time governance. During the early phase, stock-model interaction may remain cheaper. But as the thread matures, the fixed loading cost amortizes while avoided epistemic drag and CCV accumulate. The modeled curve crosses break-even after roughly 70–80 turns of sustained analytical interaction and then steepens as the governed collaboration preserves and reuses more of its accumulated value.**
+> **The redacted resemble the J-curve familiar to redacted redacted redactedors. ELT begins with a visible implementation cost: loading, carrying, and inference-time governance. During the early phase, stock-model interaction may remain cheaper. But as the thread matures, the fixed loading cost amortizes while avoided epistemic drag and CCV accumulate. The modeled curve crosses break-even after roughly 70–80 turns of sustained analytical interaction and then steepens as the governed collaboration preserves and reuses more of its accumulated value.**
 
 The comparison gives the article a stronger redacted spine.
 
@@ -45822,7 +45822,7 @@ Do not put the entire NPV model into the Medium article.
 
 The article needs one compact paragraph:
 
-> **The economic profile resembles the J-curve familiar to private-equity redactedors. ELT requires an upfront implementation cost and ongoing governance expense. Its returns arrive later through reduced epistemic drag, lower restart burden, higher-quality iteration, and CCV. Under the illustrative midpoint model, ELT crosses operating break-even after approximately 65–75 turns of sustained analytical collaboration. A formal NPV analysis would convert those token-equivalent savings into after-tax cash flows by incorporating compute cost, operator time, avoided lost work, and cross-project reuse value.**
+> **The economic profile resembles the J-curve familiar to redacted redacted redactedors. ELT requires an upfront implementation cost and ongoing governance expense. Its returns arrive later through reduced epistemic drag, lower restart burden, higher-quality iteration, and CCV. Under the illustrative midpoint model, ELT crosses operating break-even after approximately 65–75 turns of sustained analytical collaboration. A formal NPV analysis would convert those token-equivalent savings into after-tax cash flows by incorporating compute cost, operator time, avoided lost work, and cross-project reuse value.**
 
 Then put the full conservative / median / bullish model into a GitHub appendix.
 
@@ -49531,7 +49531,7 @@ But that does not invalidate the model.
 
 It means the analysis is a **first-order capital-efficiency model**, not a forensic accounting ledger.
 
-The same is true in many operational models. A private-equity team may initially analyze:
+The same is true in many operational models. A redacted redacted team may initially analyze:
 
 - labor hours;
 - machine hours;
