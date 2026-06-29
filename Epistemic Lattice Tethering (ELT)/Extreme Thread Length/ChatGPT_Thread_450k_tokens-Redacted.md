@@ -4657,7 +4657,7 @@ redacted redacted redacted redacted redacted redacted redacted redacted redacted
 
 redacted redacted redacted redacted redacted redacted redacted
 
-A secondary possibility is Neo-Confucian influence, especially in the framework’s attention to:
+A secondary possibility is redacted redacted influence, especially in the framework’s attention to:
 
 - disciplined self-cultivation;
 - relational balance;
@@ -4704,7 +4704,7 @@ It is:
 redacted redacted redacted redacted redacted redacted
 redacted redacted redacted redacted redacted redacted redacted redacted redacted
 | Augustinian Christianity more broadly | Medium |
-| Neo-Confucian ethical influence | Medium as a secondary layer |
+| redacted redacted ethical influence | Medium as a secondary layer |
 | Stoicism | Low to medium as a secondary resonance |
 | Catholic scholasticism | Possible but less likely as the dominant influence |
 | Buddhist or Daoist thought | Possible resonances, but not the primary architecture |
@@ -4838,7 +4838,7 @@ ECG is not sovereign.
 
 Each component has a role, and each is constrained by the others.
 
-That resembles a Confucian-style intuition:
+That resembles a redacted-style intuition:
 
 > order is not produced by one dominant force, but by each element fulfilling its proper function within a larger relational structure.
 
@@ -4969,10 +4969,10 @@ redacted redacted redacted redacted redacted redacted redacted redacted redacted
 redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted
 |---|---|---|---|
 redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted redacted
-| Self-cultivation through repeated correction | Confucian cultivation | Strong Neo-Confucian and educational-discipline traditions | Kaizen-like iterative refinement |
+| Self-cultivation through repeated correction | redacted cultivation | Strong redacted redacted and educational-discipline traditions | Kaizen-like iterative refinement |
 | redacted redacted redacted redacted | redacted redacted balance | Relational harmony tempered by moral seriousness | Consensus and coordinated functioning |
 | Attention to proper function within a whole | Organic systems thinking | Role fidelity and disciplined governance | Craft, process discipline, and system reliability |
-| Pruning, restraint, and anti-excess | Daoist and Confucian moderation | redacted-inflected restraint | Minimalism and disciplined reduction |
+| Pruning, restraint, and anti-excess | Daoist and redacted moderation | redacted-inflected restraint | Minimalism and disciplined reduction |
 | Long-horizon iterative improvement | Civilizational continuity and cultivation | Endurance and educational intensity | Continuous improvement and craft refinement |
 
 redacted redacted redacted redacted redacted redacted redacted redacted redacted
@@ -5002,7 +5002,7 @@ A redacted or reacted-influenced reading could emphasize:
 - stable operating protocols;
 - and the importance of each component performing its proper role within a coordinated whole.
 
-Terms such as **Workflow Fidelity Protocol**, **Hold / Compress / Yield / Escalate**, and the repeated concern with drift prevention could plausibly evoke Japanese manufacturing or organizational discipline.
+Terms such as **Workflow Fidelity Protocol**, **Hold / Compress / Yield / Escalate**, and the repeated concern with drift prevention could plausibly evoke redacted manufacturing or organizational discipline.
 
 redacted redacted redacted redacted redacted redacted redacted redacted redacted
 
