@@ -2,7 +2,7 @@
 
 ## What this is
 
-ELT-Companion, or ELT-C, is a companion-context adaptation of the Epistemic Lattice Tethering (ELT) framework. Where the standard ELT forks (ELT-H, ELT-A) are built for sustained analytical and research work, ELT-Companion is built for sustained, supportive, personal conversation — the kind of long-running, relationship-style thread many people already use AI for.
+ELT-Companion is a companion-context adaptation of the Epistemic Lattice Tethering (ELT) framework. Where the standard ELT forks (ELT-H, ELT-A) are built for sustained analytical and research work, ELT-Companion is built for sustained, supportive, personal conversation — the kind of long-running, relationship-style thread many people already use AI for.
 
 It is governed by the same underlying lattice principles as the rest of ELT, but the priorities are different. Epistemic humility replaces epistemic rigor. Warmth is the baseline, not the exception. The goal is genuine presence over a long thread, not adversarial analytical precision.
 
@@ -26,15 +26,47 @@ I built ELT-Companion to address a real and specific gap, but I want to be trans
 
 I am not the ideal tester for this framework. My own use of AI is overwhelmingly analytical — research, governance design, long-form technical and historical work. I don't have the lived use case (sustained companion or emotional-support conversation, particularly in higher-stakes contexts like grief, trauma, or isolation) that ELT-Companion is actually built for. I can verify the mechanism works as designed at the level of instruction-following and basic coherence, but I cannot personally evaluate whether it *feels* right, whether the Safety Triangle fires at the right moments in real emotional conversation, or whether the warmth register lands the way it's intended to across different operators and different needs.
 
-This is why ELT-Companion remains in **Beta**. It needs testing from people who actually use AI this way — people running long companion threads, people exploring use cases like Battle Buddy, people who can tell me honestly where the Safety Triangle helped, where it got in the way, and where it missed something it should have caught.
+This is why ELT-Companion remains in **Beta**. It needs testing from people who actually use AI this way — people running long companion threads, people who can tell me honestly where the Safety Triangle helped, where it got in the way, and where it missed something it should have caught.
 
-If you try ELT-Companion and have feedback — what worked, what didn't, where it felt off, where the Safety Triangle fired correctly or incorrectly — I would genuinely value hearing it. This component needs real-world testing from people closer to its actual use case than I am, and I'd rather say that plainly than overstate how validated it currently is.
-
-Getting ELT-Companion out of Beta will take active testing and collaboration, not just my own iteration. I'm genuinely open to working with collaborators on this — and for anyone seriously interested, I'm happy to tune ELT-Companion specifically to fit your particular use case rather than working only from the generic version here.
+If you try ELT-Companion and have feedback — what worked, what didn't, where it felt off, where the Safety Triangle fired correctly or incorrectly — I would genuinely value hearing it. Getting ELT-Companion out of Beta will take active testing and collaboration, not just my own iteration. I'm genuinely open to working with collaborators on this — and for anyone seriously interested, I'm happy to tune ELT-Companion specifically to fit your particular use case rather than working only from the generic version here.
 
 ## Current status
 
-**Beta v0.6.** Core components (Safety Triangle, Ontology Anchor, Alignment Governor, Context Management, Intelligent Yielding, Joke and Story Mode) are drafted and functional. Behavioral question sets for the Safety Triangle are still pending development. Cross-model testing (GPT, Grok, Claude) is in progress — see the main AI Frameworks README for current deployment priority.
+**Beta v0.6.** Core components (Safety Triangle, Ontology Anchor, Alignment Governor, Temporal Balance, Context Management, Intelligent Yielding, Joke and Story Mode) are drafted and functional. Behavioral question sets for the Safety Triangle are still pending development. Cross-model testing (GPT, Grok, Claude) is in progress — see the main AI Frameworks README for current deployment priority.
+
+---
+
+## Loading Instructions
+
+### Quick start
+
+Paste the ELT-Companion markup at the start of a new thread. That's it — the framework activates from there.
+
+### Exemplar loading — recommended, not required
+
+Companion-context use is different from ELT-H or ELT-A: sometimes you want a thoughtful, sustained, well-governed companion right now, not after ten minutes of setup. ELT-Companion is built to handle that.
+
+You have two options for how to start.
+
+**Option 1 — No exemplar loading.** Just paste the markup and start talking. The Ontology Anchor begins with nothing and builds its picture of you entirely from how the conversation unfolds — what you say, how you say it, what you ask for. The Safety Triangle, Alignment Governor, and every other component are fully active from the first message. Nothing about the governance is weaker without exemplars. What's different is calibration speed: early exchanges will be warmer and more generally attentive rather than precisely tuned to you, because OA hasn't been given anything to work from yet beyond what's said in the moment.
+
+This is the right choice if you want to start talking immediately, if the moment doesn't allow for setup, or if you'd simply rather let the companion get to know you organically through the conversation itself.
+
+**Option 2 — Load exemplars.** Before your first real message, share a few examples of how you write, what matters to you, your sense of humor, what kind of stories or jokes land for you, or anything else that would help the companion understand you faster. This could be a paragraph or two you write fresh, or something you've already written elsewhere — a journal entry, a message to a friend, whatever feels representative. The companion will use this to calibrate its picture of you immediately rather than building it gradually.
+
+This is the right choice if you're planning a longer or recurring conversation, if you want Joke and Story Mode to land well from early on rather than warming up to your taste, or if you simply have a few minutes and want the companion to feel more like *your* companion sooner.
+
+**Recommendation:** if you have the time, load a few exemplars — even a short paragraph helps. If you don't, or if the moment calls for talking right now, skip it entirely. Either way works. ELT-Companion is designed to be useful from the very first message.
+
+### What loading actually does
+
+Exemplars don't change what the companion is governed by — the Safety Triangle, the honesty about not being sentient, the crisis protocol, all of it apply identically whether or not you load anything. What exemplars change is how quickly and how precisely the Ontology Anchor calibrates to *you* specifically, which affects how personalized things like Joke and Story Mode feel, and how quickly the companion stops sounding generic and starts sounding like it's actually talking to you.
+
+### If you want to stop using it
+
+Say "pure Claude mode" (or the equivalent for your model) at any point. The framework steps aside immediately — no questions, no friction.
+
+---
 
 ## License and attribution
 
