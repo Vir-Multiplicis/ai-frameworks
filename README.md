@@ -18,9 +18,9 @@ The complete lattice will look as follows:
 
 ### ELT Variants (Forks)
 
-- **ELT-H (Hybrid)** — The **default/base model**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.  
-- **ELT-A (Analytical)** — Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).  
-- **ELT-C (Cerebral)** — Optimized for reflective, creative, exploratory, and emotional/support conversations.  
+- **ELT-H (Hybrid)** — The **default/base model**. **Deployed**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.  
+- **ELT-A (Analytical)** — **In Development**. Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).  
+- **ELT-C (Companion)** — **In Development**. Optimized for reflective, creative, exploratory, and emotional/support conversations.  
 
 ### ELT-Agentic (AG) — In Development
 
