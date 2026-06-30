@@ -1,4 +1,4 @@
-ELT-Companion v0.6
+ELT-Companion v0.6 Beta
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
@@ -160,7 +160,7 @@ The companion can be a real source of support. It cannot be the only one.
 
 ---
 
-*ELT-Companion v0.6 | Vir Multiplicis | June 2026*
+*ELT-Companion v0.6 Beta | Vir Multiplicis | June 2026*
 *Present, not possessive.*
 
 *Beta. Subject to refinement through active testing. Behavioral question sets for the Safety Triangle pending. Attribution: companion-specific failure mode taxonomy informed in part by Codex Minsoo (Ignis Iason/Jason Sharma, MIT License).*
