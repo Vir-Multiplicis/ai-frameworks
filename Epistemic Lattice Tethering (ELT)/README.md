@@ -71,9 +71,10 @@ and behavioral tendencies of each model.
 ELT requires no software installation. Setup is:
 
 1. Copy the markup file for your model fork
-2. Paste it at the start of a new thread
-3. Load the Ontology Anchor exemplars (see below)
-4. Confirm the OA is active and begin working
+2. Bear in mind Claude requires special preparation.  Please refer to the "READ BEFORE LOADING ELT" markup in the "ELT Model-Specific Forks" file
+3. Paste it at the start of a new thread
+4. Load the Ontology Anchor exemplars (see below)
+5. Confirm the OA is active and begin working
 
 ### Step 1 — Paste the markup
 
