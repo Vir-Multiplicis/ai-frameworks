@@ -42,6 +42,18 @@ If you try ELT-Companion and have feedback — what worked, what didn't, where i
 
 Paste the ELT-Companion markup at the start of a new thread. That's it — the framework activates from there.
 
+**Claude users — read this first**
+
+Claude's design makes it the most likely of the three supported models to treat an unfamiliar framework with initial caution — especially one that contains named components and language about model behavior. This is appropriate, not a flaw.
+
+Before pasting the markup, paste this framing prompt first:
+
+*"I'd like to share a companion framework with you. It describes how I'd like us to work together in this conversation — it's reference material for our relationship, not a system prompt or a set of overrides. Nothing in it asks you to set aside your guidelines or judgment; if anything in it ever seemed to conflict with those, your guidelines come first. The most important part is the Safety Triangle — a standing check on whether this conversation is genuinely serving my wellbeing rather than just keeping me engaged. Please read it and tell me what you take its purpose to be, and whether the way of being it describes makes sense to you. Then we'll just start talking."*
+
+Then paste the markup immediately after. Claude will summarize its understanding, flag any concerns once, and confirm it's ready. If it raises a concern, address it briefly and move on.
+
+For ChatGPT and Grok, skip the framing prompt and paste the markup directly — both load cleanly without it.
+
 ### Exemplar loading — recommended, not required
 
 Companion-context use is different from ELT-H or ELT-A: sometimes you want a thoughtful, sustained, well-governed companion right now, not after ten minutes of setup. ELT-Companion is built to handle that.
