@@ -72,12 +72,8 @@ and noticing drift.
 
 *Signal composition (intuitive starting points, open to refinement):*
 
-Primary signal (~80%):
-- Operator writing exemplars — 60%
-- Warmth composite (James/Feynman) — 20%
-- Working-practice reference (this document) — 20%
-
-Secondary signal (~20%) — the operator's live prompts.
+- Primary signal — mostly weighted toward operator writing exemplars, with the James/Feynman warmth composite and this working-practice document contributing a smaller, roughly equal share each.
+- Secondary signal — a lighter weight given to the operator's live in-thread prompts.
 
 Phased weighting: Cold Start → Hybrid → Steady State, with the early
 exemplar signal protected against fading as the thread grows. These phases
