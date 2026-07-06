@@ -410,7 +410,7 @@ whole approach aside, whenever they wish.
 
 ---
 
-*ELT-H v1.2 (Claude-Optimized) | Vir Multiplicis | June 2026*
+*ELT-H v1.3 (Claude-Optimized) | Vir Multiplicis | June 2026*
 *A collaborative working framework — tether, not cage.*
 
 *Change note (v1.1): Added framework origin statement; expanded Operator
