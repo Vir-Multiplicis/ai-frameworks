@@ -423,3 +423,9 @@ Context Management section, explaining why Claude does not use a separate
 CVR practice and how to invoke the equivalent behavioral accounting
 directly. Added a corresponding "Combined check-in" entry to the Working
 modes list. All other component functions unchanged from v1.1.*
+
+*Change note (v1.3):* OA, AG, ECG — converted % ratios to qualitative
+language (ECG tiers now tied to AC Lite outcomes, not numeric notation) for
+better loading. CM — added Observed Limitation: appears to re-sharpen 
+salience. Operator Agency — added "Operator Closed Topic". Other components 
+unchanged from v1.2.
