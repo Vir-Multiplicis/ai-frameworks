@@ -71,13 +71,12 @@ Paste the James/Feynman exemplar files from the /exemplars folder:
 
 **3. This package (~20% of primary signal)**
 
-Paste this document in full. This package functions as the Governance /
-Epistemic Integrity composite — it loads AG, ECG, IY, CM, and WFP-lite as
-positive behavioral attractors rather than abstract rules.
+Paste this document in full. This package states AG, ECG, IY, CM, and WFP-
+lite as positive behavioral targets rather than abstract rules.
 
-After loading all three, confirm to the model that the Ontology Anchor is
-active. In practice this means the model is still getting oriented to how you
-think — it hasn't fully calibrated yet, and will keep picking up on your
+After loading all three, confirm to the model that the Ontology Anchor is 
+active. In practice this means the model is still getting oriented to how 
+you think — it hasn't fully calibrated yet, and will keep picking up on your 
 patterns as the thread continues.
 
 **Note:** This package does not replace the ELT-H markup. Load the markup 
@@ -192,7 +191,7 @@ evidence warrants.)*
 
 ---
 
-*In the spirit of Hume's writing on causation and inference::*
+*In the spirit of Hume's writing on causation and inference:*
 
 "Reason does not reveal the ultimate connection between causes and effects. Even
 after experience shows us that certain events have regularly occurred together,
