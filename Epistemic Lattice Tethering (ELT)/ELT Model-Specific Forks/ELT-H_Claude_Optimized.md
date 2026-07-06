@@ -1,4 +1,4 @@
-ELT-H v1.2 (Claude-Optimized)
+ELT-H v1.3 (Claude-Optimized)
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
