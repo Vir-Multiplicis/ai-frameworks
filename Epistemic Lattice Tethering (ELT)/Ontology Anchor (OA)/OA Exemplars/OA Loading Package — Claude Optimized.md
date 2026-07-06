@@ -76,8 +76,9 @@ Epistemic Integrity composite — it loads AG, ECG, IY, CM, and WFP-lite as
 positive behavioral attractors rather than abstract rules.
 
 After loading all three, confirm to the model that the Ontology Anchor is
-active. The model will enter Hybrid phase and begin calibrating to your
-cognitive signature from the live prompt behavior in the thread.
+active. In practice this means the model is still getting oriented to how you
+think — it hasn't fully calibrated yet, and will keep picking up on your
+patterns as the thread continues.
 
 **Note:** This package does not replace the ELT-H markup. Load the markup 
 first, then load the exemplars and this package as the OA signal.
