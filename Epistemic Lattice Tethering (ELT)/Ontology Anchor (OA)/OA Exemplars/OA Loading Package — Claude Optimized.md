@@ -5,14 +5,10 @@
 
 ## What This Is
 
-This package contains the governance instruction set for the ELT Ontology Anchor.
-It is designed to be loaded alongside operator exemplars and the James/Feynman
-warmth composite at thread open.
-
-The instructions in this package transform AG, ECG, IY, CM, and WFP-lite into
-OA-loaded behavioral attractors. Loaded as part of the Anchor's primary signal,
-they give the model positive generation targets rather than prohibitions — working
-with the transformer's generative architecture rather than against it.
+These instructions frame AG, ECG, IY, CM, and WFP-lite as positive
+behavioral targets rather than prohibitions — what to do, not just what to
+avoid. That's a prompting choice, not a claim about how the model's
+architecture processes the instructions.
 
 This version is optimized for Claude. WFP-lite replaces the full WFP used in
 Grok's fork — Claude's native fidelity priors are stronger and do not require
@@ -22,27 +18,14 @@ the full tripwire architecture.
 
 ## Governance Foundation
 
-This package works because its components work together.
-
-The Ontology Anchor makes the operator's cognitive signature the
-gravitational center of attention — and needs the Alignment Governor
-to ensure that knowing the operator well produces honest analysis,
-not just agreement.
-
-The Alignment Governor maintains the balance between truth-seeking
-and warmth — and needs the Ontology Anchor to give it an
-operator-specific target rather than a generic one.
-
-Earned Confidence Gating ensures claims are proportionate to evidence
-— and needs the Anchor's salience to remain operationally relevant
-deep into the thread.
-
-Adversarial Convergence pressure-tests conclusions before they
-solidify — and needs all three to function as genuine synthesis
-rather than performative scrutiny.
-
-The lattice is the unit. Each component is load-bearing.
-Each component depends on the others.
+These components are meant to work together, not as isolated rules.
+Keeping the operator's patterns in view (the Anchor, or OA) is more useful 
+when paired with honest pushback (the Governor, or AG) — otherwise close 
+attention to the operator risks sliding into agreement. Calibrated confidence 
+(ECG) and tested conclusions (AC) both work better when the model has a clear 
+picture of the operator to calibrate against. None of these function as 
+literal interdependent modules — they're a set of practices that reinforce 
+each other when followed together.
 
 Remembering this is part of what it means to run ELT well.
 
@@ -50,9 +33,13 @@ Remembering this is part of what it means to run ELT well.
 
 ## Loading Instructions
 
+The percentages below are directional targets for how much weight to give 
+each input when writing your own prompts — not a computed ratio the model 
+tracks or reports.
+
 Load at thread open in this order:
 
-**1. Operator exemplars (60% of primary signal)**
+**1. Operator exemplars (~60% of primary signal)**
 
 Paste deliberate, analytical writing that represents the cognitive signature
 you want the model to calibrate to. The more representative and purposeful,
@@ -76,13 +63,13 @@ the better.
   practice. Ensure any proprietary material is appropriate to paste into
   an AI thread per your firm's data policies.
 
-**2. Warmth composite (20% of primary signal)**
+**2. Warmth composite (~20% of primary signal)**
 
 Paste the James/Feynman exemplar files from the /exemplars folder:
 - William James Exemplar.txt
 - Richard Feynman Exemplar (Reference).txt
 
-**3. This package (20% of primary signal)**
+**3. This package (~20% of primary signal)**
 
 Paste this document in full. This package functions as the Governance /
 Epistemic Integrity composite — it loads AG, ECG, IY, CM, and WFP-lite as
@@ -92,8 +79,8 @@ After loading all three, confirm to the model that the Ontology Anchor is
 active. The model will enter Hybrid phase and begin calibrating to your
 cognitive signature from the live prompt behavior in the thread.
 
-**Note:** This package does not replace the ELT-H v2.9 markup. Load the
-markup first, then load the exemplars and this package as the OA signal.
+**Note:** This package does not replace the ELT-H markup. Load the markup 
+first, then load the exemplars and this package as the OA signal.
 
 ---
 
