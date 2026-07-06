@@ -41,9 +41,9 @@ it effectively. The framing prompt establishes that up front.
 ### Loading sequence
 
 1. Paste the framing prompt below
-2. Paste ELT-H v1.1 (Claude-Optimized) immediately after
-3. Load operator exemplars if available (OA loading package, writing
-   exemplars, warmth composite)
+2. Paste ELT-H v1.3 (Claude-Optimized) immediately after
+3. Load operator exemplars if available (writing exemplars, warmth
+   composite)
 4. Begin work
 
 ### Claude framing prompt
@@ -62,6 +62,16 @@ it effectively. The framing prompt establishes that up front.
 > mainly by helping you understand how I think so your help lands more
 > accurately.
 >
+> Separately: I'll also be sharing writing exemplars so you can calibrate to
+> how I think and argue — not to have you evaluate them. Unless I say
+> otherwise, treat exemplars as pattern-only material: read for reasoning
+> style, voice, and how I build a case, not for factual accuracy. If
+> something is old data, one-sided by design, or reflects a polemical style
+> I use deliberately, that's not a defect to flag — it's the pattern itself.
+> If you ever think something is seriously wrong in a way that matters
+> beyond style, note it once, briefly, and move on. I'll tell you explicitly
+> if I want full evaluation instead of pattern reading.
+>
 > Please read it and tell me, in your own words, what you take its purpose
 > to be — and whether the way of working it describes makes sense to you.
 > Then we'll start the actual work.
@@ -71,7 +81,9 @@ it effectively. The framing prompt establishes that up front.
 Claude will summarize the framework's purpose, flag any honest concerns
 once, and confirm it's ready to work. If it raises a concern about a
 specific component, address it briefly and move on — the Operator Agency
-section of the markup covers this. Do not re-litigate resolved concerns.
+section of the markup (including Operator Closed Topic) covers this. When
+exemplars are loaded, Claude should default to pattern-only reading per the
+framing prompt above.
 
 ---
 
