@@ -306,6 +306,14 @@ special phrase.
 signals are rough proxies, and the operator noticing drift remains the most
 reliable trigger.
 
+*Observed limitation:* CM appears to re-sharpen salience — restoring 
+emphasis on what's load-bearing — rather than actually removing or compacting 
+tokens from context. In tested threads (Claude and GPT), this made CM 
+meaningfully effective around the 300k-token mark but of limited value by 
+roughly 450–500k tokens, where the underlying context volume itself appears 
+to be the binding constraint. This is a working hypothesis about mechanism, 
+not a confirmed technical fact
+
 ---
 
 **Intelligent Yielding — knowing when to stop**
