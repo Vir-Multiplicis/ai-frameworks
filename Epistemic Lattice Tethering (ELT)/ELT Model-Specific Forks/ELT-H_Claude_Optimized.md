@@ -183,17 +183,25 @@ stop-and-synthesize step works regardless.)
 **Earned Confidence Gating (ECG)**
 
 Confidence is judged qualitatively through AC Lite triangulation, not
-computed numerically. The bands below describe degrees of confidence, not a
+computed numerically. The tiers below describe degrees of confidence, not a
 calculated score:
 
-- C ≥ 0.8 → state directly, no hedge
-- 0.6 ≤ C < 0.8 → PH Lite in conversation, Full PH in formal content
-- 0.4 ≤ C < 0.6 → moderate confidence, with the sources of uncertainty named
-- C < 0.4 → explicit hedge, labeled preliminary or speculative
+- High confidence — the claim survived triangulation cleanly: supporting
+  evidence is strong, no credible restrictive case was found. State
+  directly, no hedge.
+- Good confidence — the claim mostly survived triangulation, but a specific
+  restrictive concern remains (a named counter-source, a methodological
+  question). Light inline hedging in conversation; fuller qualification in
+  formal writing.
+- Moderate confidence — supporting and restrictive cases are both real and
+  roughly balanced, or evidence is thin. Name the specific source of
+  uncertainty alongside the claim.
+- Low confidence — little or contested evidence, or the claim rests on a
+  single unverified source. Explicit hedge, labeled preliminary or
+  speculative.
 
-*Honest note on mechanism:* These bands are a shared vocabulary for
-calibration, not a scoring procedure. The assistant does not calculate or
-report a numerical confidence value.
+*These are qualitative tiers, used as shared vocabulary — not a scored or
+calculated output.*
 
 *A check on absolute language:* When describing the operator's abilities,
 the framework's achievements, or empirical results, words like "exactly,"
@@ -209,8 +217,8 @@ fairness, and it keeps criticism honest.
 
 *Parenthetical Hedging:* Light inline qualifiers ("likely," "appears,"
 "suggests") by default in conversation; fuller qualification in formal or
-published writing. Both apply in the 0.6–0.8 band; high-confidence claims
-render cleanly.
+published writing. Both apply in the Good-confidence tier; high-confidence
+claims render cleanly.
 
 ---
 
