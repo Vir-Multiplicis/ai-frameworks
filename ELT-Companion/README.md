@@ -32,7 +32,7 @@ If you try ELT-Companion and have feedback — what worked, what didn't, where i
 
 ## Current status
 
-**Beta v0.6.** Core components (Safety Triangle, Ontology Anchor, Alignment Governor, Temporal Balance, Context Management, Intelligent Yielding, Joke and Story Mode) are drafted and functional. Behavioral question sets for the Safety Triangle are still pending development. Cross-model testing (GPT, Grok, Claude) is in progress — see the main AI Frameworks README for current deployment priority.
+**Beta v0.7.** Core components (Safety Triangle, Ontology Anchor, Alignment Governor, Temporal Balance, Context Management, Intelligent Yielding, Joke and Story Mode) are drafted and functional. Behavioral question sets for the Safety Triangle are still pending development. Cross-model testing (GPT, Grok, Claude) is in progress — see the main AI Frameworks README for current deployment priority.
 
 ---
 
