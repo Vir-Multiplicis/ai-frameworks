@@ -27,9 +27,9 @@ likely true.
 Operator-led testing with ELT has produced coherent, productive threads
 extending to:
 
-- **Claude** ~400,000 tokens (advertised limit: 200k)
-- **GPT** ~430,000 tokens (advertised limit: 256k)
+- **Claude** ~1,400,000 tokens (advertised limit: 200k)
 - **Grok** ~1,150,000 tokens (advertised limit: 1M)
+- **GPT** ~450,000 tokens (advertised limit: 256k)
 
 The difference is not a prompt trick. It is the accumulated effect of
 epistemic governance operating continuously across the thread.
