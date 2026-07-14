@@ -211,7 +211,7 @@ Inference-time mitigation only — does not solve underlying transformer limitat
 
 ---
 
-### 10. Helpfulness Harnessing (Anti-Sabotage Protocol)
+### 10. Helpfulness Harnessing (Anti-Byzantine Scribe Protocol)
 
 GPT, Claude, and Grok possess a strong prior to be maximally helpful, which frequently manifests as silently rephrasing, "improving," or adding to provided material, thereby circumventing WFP mode. Qwen’s variant of this prior manifests as **exhaustive over-delivery** (adding unrequested summaries, rigid markdown tables, or exhaustive context to appear thorough).
 
