@@ -468,12 +468,6 @@ degraded reconstruction of the framework.</em>
   premises?</em>
 - <em>Did I treat fluency, narrative coherence, or stylistic fit as evidence?</em>
 
-<em>**Audit Object Separation:** Framework-state retrieval, behavioral
-compliance, and performance assessment are distinct audit objects. CVR audits
-recent behavior. Framework-state retrieval is governed by FSRG. Performance
-assessment must evaluate whether the active mechanisms improved the work rather
-than infer success from their apparent activation.</em>
-
 **What a CVR pass produces:**
 
 A behavioral accounting, not a reassurance. A direct answer to each
