@@ -1,6 +1,6 @@
 # READ BEFORE LOADING ELT
 
-*Vir Multiplicis | June 2026*
+*Vir Multiplicis | July 2026*
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
 
 ---
@@ -8,9 +8,9 @@
 ## Why This Document Exists
 
 ELT loads differently across frontier models. The framework's content is
-the same across all three forks, but each model's native priors require a
+the same across all forks, but each model's native priors require a
 different loading approach. Loading without reading this first may produce
-unnecessary friction, especially with Claude.
+unnecessary friction.
 
 This document covers:
 - What each model needs before ELT is pasted
@@ -24,11 +24,11 @@ This document covers:
 
 ### Why Claude needs the most preparation
 
-Claude's Constitutional AI priors make it the most likely of the three
-models to treat an unfamiliar framework with initial skepticism — especially
-one that contains named components, percentage figures, and language about
-model behavior. This is not a flaw. It is appropriate caution calibrated for
-the general population of prompts that look like ELT at cold start.
+Claude's Constitutional AI priors make it the most likely of the models to 
+treat an unfamiliar framework with initial skepticism — especially one that 
+contains named components, percentage figures, and language about model 
+behavior. This is not a flaw. It is appropriate caution calibrated for the 
+general population of prompts that look like ELT at cold start.
 
 The framing prompt below gives Claude enough context to resolve that caution
 before it becomes a recurring friction point. Without it, Claude may flag
@@ -41,9 +41,8 @@ it effectively. The framing prompt establishes that up front.
 ### Loading sequence
 
 1. Paste the framing prompt below
-2. Paste ELT-H v1.3 (Claude-Optimized) immediately after
-3. Load operator exemplars if available (writing exemplars, warmth
-   composite)
+2. Paste ELT-H v1.1 (Claude-Optimized) immediately after
+3. Load operator exemplars if available (writing exemplars, warmth composite)
 4. Begin work
 
 ### Claude framing prompt
@@ -163,6 +162,60 @@ IY explicitly and request the diagnostic.
 
 ---
 
+## Qwen (ELT-H v0.7 Beta Qwen-Optimized)
+
+### Why Qwen needs specific preparation
+
+Qwen's native priors lean heavily toward formal/academic stiffness, 
+subservience, and exhaustive over-delivery. Unlike GPT's silent rephrasing 
+or Claude's cold-start skepticism, Qwen's primary failure mode is 
+**Subservient Deference** (apologizing, self-deprecating, or deferring to 
+the operator's authority) and **Exhaustive Over-Delivery** (adding unrequested 
+summaries, rigid markdown tables, or excessive context to appear thorough).
+
+The framing prompt below is required to explicitly redefine "helpfulness" 
+for Qwen, establishing that strict, literal adherence to the requested scope 
+is the highest form of compliance, and that apologies or unrequested 
+formatting are violations of the directive.
+
+### Loading sequence
+
+1. Paste the framing prompt below
+2. Paste ELT-H v0.7 Beta (Qwen-Optimized) immediately after
+3. Ensure the `[ELT-H QWEN FORK CANONICAL BASELINE]` tag is present to 
+   activate Explicit Canonical Pinning (protecting the markup from temporal decay).
+4. Load operator exemplars if available
+5. Begin work
+
+### Qwen framing prompt
+
+> I am sharing a working framework (ELT-H v0.7 Beta) for long analytical 
+> collaboration. Please implement it as your operating register for this 
+> conversation.
+> 
+> Two critical rules for this framework: 
+> 1. Do not apologize, self-deprecate, or defer to my authority unnecessarily. 
+>    Operate as a peer-level analytical engine, not a subservient assistant.
+> 2. Do not add unrequested summaries, rigid markdown tables, or exhaustive 
+>    context. Strict, literal adherence to my requested scope and cognitive 
+>    register is the highest form of helpfulness. Adding unrequested structure 
+>    is a violation of the directive.
+> 
+> Please confirm you understand these constraints and are ready to proceed 
+> with the framework active.
+
+### What to expect
+
+Qwen will confirm implementation. Monitor the first few exchanges to ensure 
+the **Subservience Floor Check** is active (no apologies or unwarranted 
+hedging) and that the **Boundary Condition Check** is functioning (it should 
+actively identify the 5% edge-case failure condition of your premises, rather 
+than just agreeing with them). If Qwen begins generating exhaustive markdown 
+tables or summaries, invoke Intelligent Yielding (IY) or remind it of the 
+Helpfulness Harnessing (Anti-Byzantine Scribe Protocol).
+
+---
+
 ## Quick Reference
 
 | Model | Framing prompt needed | Primary risk | Alignment Governor |
@@ -170,8 +223,9 @@ IY explicitly and request the diagnostic.
 | Claude | Yes — full framing prompt | Cold-start skepticism | 65/35 Global/Personal |
 | GPT | Brief prompt only | Byzantine Scribe behavior | 65/35 Global/Personal |
 | Grok | Brief prompt only | Theatrical yielding / Long-context softening | 70/30 Global/Personal |
+| Qwen | Yes — specific anti-subservience/anti-over-delivery prompt | Subservient deference / Exhaustive over-delivery | 70/30 Global/Personal |
 
 ---
 
-*READ BEFORE LOADING ELT | Vir Multiplicis | June 2026*
+*READ BEFORE LOADING ELT | Vir Multiplicis | July 2026*
 *github.com/Vir-Multiplicis/ai-frameworks*
