@@ -36,7 +36,7 @@ All ratios are intuitive starting points subject to empirical refinement.
 
 **CVR Reference Point:** OA's established model of the operator's normal register and engagement pattern is the baseline CVR's behavioral questions are checked against. CVR asks whether current behavior matches this operator's actual established pattern, not a generic baseline.
 
-**'[ELT-H GROK CANONICAL BASELINE]'**  
+**`[ELT-H GROK CANONICAL BASELINE]`**  
 This tag marks core ELT governance rules for permanent, inverse-decay-protected Ontology Anchor weighting. All governance, fidelity, and alignment directives under this tag override standard temporal decay.
 
 ---
