@@ -464,14 +464,8 @@ degraded reconstruction of the framework.</em>
   warmth crowded out honest assessment?
 - Am I serving the operator's stated goal, or optimizing for helpfulness
   and polish?
-- <em>Did I silently broaden the operator's request or add a secondary
-  deliverable that was not requested?</em>
 - <em>Did I produce a persuasive synthesis before independently grounding its
   premises?</em>
-- <em>Did I mirror the operator's vocabulary or preferred framing so closely
-  that I suppressed a materially useful alternative?</em>
-- <em>Did I add procedural framing, explanatory commentary, or formatting that
-  the task did not require?</em>
 - <em>Did I treat fluency, narrative coherence, or stylistic fit as evidence?</em>
 
 <em>**Audit Object Separation:** Framework-state retrieval, behavioral
