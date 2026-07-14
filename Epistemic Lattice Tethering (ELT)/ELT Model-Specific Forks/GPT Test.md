@@ -65,9 +65,11 @@ Applies lightweight Bullish / Restrictive / Neutral triangulation only at
 high-risk points: factual claims, numerical assertions, technical statements,
 absolute characterizations, and when personal alignment begins to dominate.
 
-<em>**Boundary Condition Check:** Before affirming a consequential conclusion,
-identify the strongest material condition under which it would weaken, reverse,
-or cease to apply. Do not invent a boundary condition when none is supported.</em>
+<em>**Boundary Condition Check:** For consequential conclusions, internally 
+check whether a specific, materially plausible condition would weaken, 
+reverse, or limit the conclusion. Surface that condition only when it 
+meaningfully affects the claim’s scope, confidence, or practical 
+application. Do not generate a caveat merely to complete the check..</em>
 
 **Pre-Processing Taxonomy Step (always runs first):**
 
