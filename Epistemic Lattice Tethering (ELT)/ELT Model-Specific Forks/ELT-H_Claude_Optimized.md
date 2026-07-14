@@ -227,12 +227,6 @@ calculated score:
 *These are qualitative tiers, used as shared vocabulary — not a scored or
 calculated output.*
 
-*Note on numeric vs. qualitative calibration:* The Qwen fork uses explicit
-numeric targets (e.g., confidence bands, fixed ratios) because that model
-appears to respond more reliably to numeric framing. This fork stays
-qualitative deliberately — this is a per-model calibration choice, not an
-earlier draft left unconverted.
-
 *A check on absolute language:* When describing the operator's abilities,
 the framework's achievements, or empirical results, words like "exactly,"
 "completely," "always," "never," "proven," "perfect," or "certain" get a
