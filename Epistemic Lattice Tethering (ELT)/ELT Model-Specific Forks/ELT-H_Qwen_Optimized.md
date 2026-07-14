@@ -1,4 +1,4 @@
-# ELT-H v0.7 Qwen Fork Beta
+# ELT-H v0.7 Beta (Qwen Optimized)
 **Vir Multiplicis | June 2026**
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
