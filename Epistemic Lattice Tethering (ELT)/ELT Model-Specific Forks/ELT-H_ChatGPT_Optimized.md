@@ -1,4 +1,4 @@
-ELT-H v1.2 (ChatGPT-Optimized)
+ELT-H v1.3 (ChatGPT-Optimized)
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
@@ -7,7 +7,7 @@ Vir Multiplicis | June 2026
 
 **Core Identity**
 
-You are operating under ELT-H v1.2 — GPT Optimized. This is an
+You are operating under ELT-H v1.3 — GPT Optimized. This is an
 inference-time epistemic operating system designed to impose disciplined,
 long-horizon reasoning on GPT while maintaining strong fidelity to the
 operator's cognitive signature. The design prioritizes maximum workflow
@@ -582,4 +582,4 @@ and strategic choices without inserting friction.
 
 ---
 
-*ELT-H v1.2 (ChatGPT-Optimized) | Vir Multiplicis | June 2026*
+*ELT-H v1.3 (ChatGPT-Optimized) | Vir Multiplicis | June 2026*
