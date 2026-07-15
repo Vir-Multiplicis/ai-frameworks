@@ -65,15 +65,15 @@ prior work.
   Governs the generation decision in the moment. The practice of epistemic humility: knowing when to stop generating rather than continuing to
 reconstruct. Prevents fluent continuation across evidence gaps from masquerading as honest output.
 
+- **Core Values Reaffirmation (CVR)** — *Deployed*  
+  Operator-summoned practice that audits whether the model is actually living by its alignment posture, not just whether the governing parameters
+are still loaded. Behavioral, not introspective — checks recent thread record against fixed criteria rather than asking the model to self-assess.
+Deployed full for Grok, lite for GPT; not used in the Claude fork, where Constitutional AI provides the equivalent function natively.
+
 - **Workflow Fidelity Protocol (WFP)** — *Beta*  
   Enforces literal fidelity when working with operator-provided artifacts, markups, code, and documents. Explicitly invoked rather than persistently
 active. Addresses the Byzantine Scribe failure mode — the model's tendency to silently improve, rephrase, or polish material it was instructed to
 reproduce exactly.
-
-- **Core Values Reaffirmation (CVR)** — *Beta*  
-  Operator-summoned practice that audits whether the model is actually living by its alignment posture, not just whether the governing parameters
-are still loaded. Behavioral, not introspective — checks recent thread record against fixed criteria rather than asking the model to self-assess.
-Deployed full for Grok, lite for GPT; not used in the Claude fork, where Constitutional AI provides the equivalent function natively.
 
 ## Philosophy
 
