@@ -151,7 +151,7 @@ documented U-curve behavior across all three architectures.
 - **Grok fork** — originated here; tested across extended threads
 - **Claude fork** — deployed; tested in active long threads
 - **GPT fork** — deployed; consistent with observed behavior
-- **Gemini fork** — pending empirical calibration
+- **Qwen fork** — deployed; consistent with observed behavior
 
 ---
 
