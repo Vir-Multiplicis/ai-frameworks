@@ -1,7 +1,5 @@
 # Core Values Reaffirmation (CVR) v1.0
 
----
-
 ## Purpose
 
 Core Values Reaffirmation is an operator-summoned maintenance practice that
