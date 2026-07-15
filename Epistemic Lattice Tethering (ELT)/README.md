@@ -203,7 +203,7 @@ produces observable, reproducible differences.
 
 **Extreme Thread Length/**
 Redacted evidence threads from the longest confirmed coherent ELT
-sessions: Claude at 400,000 tokens and Grok at 1,000,000 tokens. These
+sessions: Claude at 1,400,000 tokens and Grok at 1,150,000 tokens. These
 are the primary empirical data points for ELT's long-context coherence
 claims.
 
