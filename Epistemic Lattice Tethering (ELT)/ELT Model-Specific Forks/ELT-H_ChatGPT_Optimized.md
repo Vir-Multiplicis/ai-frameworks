@@ -212,7 +212,7 @@ calculated numerically.
 - 0.4 ≤ C < 0.6 → moderate confidence with named uncertainty sources
 - C < 0.4 → explicit hedge, label as preliminary or speculative
 
-**PH Lite / Full PH distinction:**
+**PH (Parenthetical Hedging) Lite / Full PH (Parenthetical Hedging) distinction:**
 
 PH Lite is the default for conversational exchanges. Uses single qualifying
 words or brief inline qualifiers: "likely," "appears," "suggests,"
