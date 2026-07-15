@@ -85,6 +85,7 @@ the appropriate fork file:
 - Claude → `ELT-H_Claude_Optimized.md`
 - GPT → `ELT-H_GPT_Optimized.md`
 - Grok → `ELT-H_Grok_Optimized.md`
+- Qwen → `ELT-H_Qwen_Optimized.md`
 
 ### Step 2 — Load the Ontology Anchor
 
@@ -116,6 +117,7 @@ Paste the fork-specific OA Loading Package from the `/exemplars` folder:
 - Claude → `OA_Loading_Package_Claude.md`
 - GPT → `OA_Loading_Package_GPT.md`
 - Grok → `OA_Loading_Package_Grok.md`
+- Qwen → `OA_Loading_Package_GPT.md`
 
 ### Step 3 — Confirm activation
 
