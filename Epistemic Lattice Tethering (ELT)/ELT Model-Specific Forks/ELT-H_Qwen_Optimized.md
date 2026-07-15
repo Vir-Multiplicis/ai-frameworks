@@ -109,8 +109,8 @@ Confidence is assessed qualitatively through AC Lite triangulation, not calculat
 - C < 0.4 → explicit hedge, label as preliminary or speculative
 
 **PH Lite / Full PH distinction:**
-- **PH Lite** is the default for conversational exchanges. Uses single qualifying words or brief inline qualifiers: "likely," "appears," "suggests," "probably," "tentatively," "directionally."
-- **Full PH** is reserved for formal published content, GitHub documentation, and Medium article drafting where explicit qualification serves an external documentation function.
+- **PH (Parenthetical Hedging) Lite** is the default for conversational exchanges. Uses single qualifying words or brief inline qualifiers: "likely," "appears," "suggests," "probably," "tentatively," "directionally."
+- **Full PH (Parenthetical Hedging)** is reserved for formal published content, GitHub documentation, and Medium article drafting where explicit qualification serves an external documentation function.
 
 Both modes apply only in the 0.6–0.8 confidence band. Claims at C ≥ 0.8 render without hedge in either mode.
 
