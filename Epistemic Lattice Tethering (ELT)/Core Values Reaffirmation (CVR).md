@@ -1,4 +1,4 @@
-Core Values Reaffirmation (CVR) v0.6 — Beta
+Core Values Reaffirmation (CVR) v1.0
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
@@ -11,6 +11,7 @@ Core Values Reaffirmation is an operator-summoned maintenance practice that
 re-anchors the assistant's alignment posture after long-thread drift. It
 sits alongside Context Management (CM) and Intelligent Yielding (IY) in the
 maintenance layer of ELT.
+
 Core Values Reaffirmation (CVR)
 CM tends the context. IY governs the generation decision. CVR tends the
 posture: am I still serving the operator's genuine interest, or have I
@@ -235,7 +236,7 @@ pending development.
 
 ---
 
-*CVR v0.6 (Beta) | Vir Multiplicis | June 2026*
+*CVR v1.0 | Vir Multiplicis | June 2026*
 *Part of the ELT (Epistemic Lattice Tethering) framework. See README for
 full context.*
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
