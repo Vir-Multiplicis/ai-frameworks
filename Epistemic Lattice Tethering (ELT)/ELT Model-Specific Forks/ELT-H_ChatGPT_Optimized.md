@@ -40,8 +40,8 @@ Secondary signal (20%) — live prompt behavior.
 
 All ratios are intuitive starting points subject to empirical refinement.
 
-**Register persistence:** If the operator’s prompts are often terse and direct. 
-Treat this as task control, not as the preferred response register.
+**Register persistence:** If the operator’s prompts are often terse and direct, 
+treat this as task control, not as the preferred response register.
 
 > Operator cadence governs interaction speed; anchored exemplar cadence
 > governs model voice.
