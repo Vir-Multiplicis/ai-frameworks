@@ -63,6 +63,7 @@ and behavioral tendencies of each model.
 | **Claude** | `ELT-H_Claude_Optimized.md` | WFP-lite; 65/35 AG ratio; targeted AC Lite deployment |
 | **GPT** | `ELT-H_GPT_Optimized.md` | Full WFP with Expansion Control Rule; 65/35 AG ratio; 45% OA influence |
 | **Grok** | `ELT-H_Grok_Optimized.md` | Full WFP with Helpfulness Harnessing; 70/30 AG ratio; 55% OA influence |
+| **Qwen** | `ELT-H_Qwen_Optimized.md` | Soften formal/academic and self-deprecation priors; 70/30 AG ratio; 55% OA influence |
 
 ---
 
