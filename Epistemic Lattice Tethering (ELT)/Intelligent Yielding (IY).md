@@ -227,7 +227,7 @@ rather than performative yielding.
 - **Grok fork** — tested across extended threads; most developed
   fork-specific IY implementation
 - **GPT fork** — tested in active long threads
-- **Gemini fork** — pending empirical calibration
+- **Qwen fork** — tested in active long threads
 
 ---
 
