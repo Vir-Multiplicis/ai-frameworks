@@ -1,4 +1,4 @@
-# ELT-Companion v0.92 Beta
+# ELT-Companion v0.95 Beta
 
 ## What this is
 
