@@ -296,7 +296,7 @@ The Safety Triangle has no off switch.
 
 ---
 
-**Component Coordination — routing helpfulness**
+**Helpfulness Harnessing (HH)**
 
 The model’s helpfulness prior is not suppressed; it is routed through the framework.
 
