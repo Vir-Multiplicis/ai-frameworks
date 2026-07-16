@@ -8,7 +8,7 @@
 
 This document demonstrates Adversarial Convergence (AC) in action on a real-world geopolitical question. It was constructed to show two things simultaneously: first, the contrast between a standard unscaffolded LLM response and an AC-scaffolded response to the same question; second, and more importantly, that AC produces structurally convergent reasoning across three meaningfully different LLM models — Claude, Gemini, and Grok — despite their different baseline personalities, training approaches, and safety architectures.
 
-The question was posed on April 13, 2026, during an active and fast-moving conflict. All responses reflect real-time information available at that date.
+The question was posed on **April 13, 2026**, during an active and fast-moving conflict. All responses reflect real-time information available at that date.
 
 This demonstration accompanies the Medium article **"Building More Truthful and Stable AI With Adversarial Convergence"** by Vir Multiplicis. ([Read the full article here.](https://medium.com/@socal21st.oc/building-more-truthful-and-stable-ai-with-adversarial-convergence-66ece2dff9f6))
 
