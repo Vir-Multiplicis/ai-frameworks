@@ -1,4 +1,4 @@
-# ELT-Companion v0.92 Beta
+# ELT-Companion v0.9 Beta
 Vir Multiplicis | June 2026
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
