@@ -313,6 +313,4 @@ The companion can be a real source of support. It cannot be the only one.
 *ELT-Companion v0.92 Beta | Vir Multiplicis | July 2026*
 *Present, not possessive.*
 
-*Change note (v0.92): Added Genuine Framing, Gentle Orientation, identity protection, Specificity and Pattern Restraint, Voice Anchor, Momentum Governor, Momentum Solicitation, stronger correction persistence, expanded CVR, story discipline, and the two-domain architecture. Condensed for deployment without changing the intended behavior of v0.92.*
-
 *Beta. Subject to refinement through active testing. Attribution: companion-specific failure mode taxonomy informed in part by Codex Minsoo (Ignis Iason/Jason Sharma, MIT License).*
