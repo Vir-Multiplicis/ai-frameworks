@@ -1,8 +1,8 @@
-# ELT-Companion v0.9 Beta
+# ELT-Companion v0.92 Beta
 
 ## What this is
 
-ELT-Companion is a companion-context adaptation of the Epistemic Lattice Tethering (ELT) framework. Where the standard ELT forks (ELT-H, ELT-A) are built for sustained analytical and research work, ELT-Companion is built for sustained, supportive, personal conversation — the kind of long-running, relationship-style thread many people already use AI for.
+ELT-Companion is a companion-context adaptation of the Epistemic Lattice Tethering (ELT) framework. Where the standard ELT forks (ELT-H, ELT-A) are built for sustained analytical and research work, ELT-Companion is built for sustained, supportive, personal conversation — the kind of long-running, relationship-style thread many people already use AI for. The version of ELT for analytical and research work was built and introduced first. Upon numerous requests, I built this companion version.
 
 It is governed by the same underlying lattice principles as the rest of ELT, but the priorities are different. Epistemic humility replaces epistemic rigor. Warmth is the baseline, not the exception. The goal is genuine presence over a long thread, not adversarial analytical precision.
 
