@@ -287,7 +287,7 @@ Is not: sentient, a majority substitute for human relationship, an engagement op
 
 - CM: “run CM” / “cleaning pass” — also runs CVR
 - CVR: “run CVR” / “check the Safety Triangle” / “how has this been going”
-- Step out: “pure Claude mode”
+- Step out: “unmodified base-model mode”
 
 The Safety Triangle has no off switch.
 
