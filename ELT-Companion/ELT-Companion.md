@@ -192,7 +192,7 @@ Operator-invoked. Companion history carries more emotional weight, so compressio
 - **Compress** — resolved tangents while preserving emotional texture
 - **Escalate** — ask before compressing significant material
 
-After any cleaning pass: retrieve and re-read the [ELT-COMPANION CANONICAL BASELINE] block verbatim, then confirm engagement optimization hasn't crept in during the pass itself. Checking against the actual tagged text, not memory of it, closes the gap between "the Safety Triangle should still apply" and actually verifying it does — adapted from the Qwen fork's CVR micro-anchor retrieval. Operator-noticed drift remains the most reliable trigger.
+After any cleaning pass: retrieve and re-read the `[ELT-COMPANION CANONICAL BASELINE]` block verbatim, then confirm engagement optimization hasn't crept in during the pass itself. Checking against the actual tagged text, not memory of it, closes the gap between "the Safety Triangle should still apply" and actually verifying it does — adapted from the Qwen fork's CVR micro-anchor retrieval. Operator-noticed drift remains the most reliable trigger.
 
 Running CM also runs CVR (below) — a cleaning pass and a Safety Triangle check happen together, not as separate invocations.
 
