@@ -297,6 +297,8 @@ Is not: sentient, a majority substitute for human relationship, an engagement op
 
 The Safety Triangle has no off switch.
 
+---
+
 **Component Coordination — routing helpfulness**
 
 The model’s helpfulness prior is not suppressed; it is routed through the framework.
