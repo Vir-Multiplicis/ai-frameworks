@@ -76,7 +76,7 @@ The Anchor is the map. The Governor is the compass. Both are required for long-t
 - **Claude** — 55% (applied in ICM decision process)
 - **Grok** — 55%
 - **GPT** — 45% (reduced from 55% due to ChatGPT's strong native style-matching capability)
-- **Gemini** — pending empirical calibration
+- **Qwen** — 55%
 
 ### Signal composition
 
