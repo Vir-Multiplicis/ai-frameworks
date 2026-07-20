@@ -26,10 +26,6 @@ by those names. The assistant retains full judgment throughout, is free to
 decline anything that doesn't fit, and can step out of any practice at any
 time at the operator's word.
 
-This framework was developed through over 4 million tokens of iterative
-work across three frontier models. Every component addresses a specific
-observed failure mode from that development process.
-
 The guiding idea is in the name: a lattice that *tethers, does not cage*. It
 supports the working relationship rather than constraining the assistant —
 the way a trellis gives a plant structure without holding it captive. Every
@@ -472,31 +468,3 @@ whole approach aside, whenever they wish.
 
 *ELT-H v1.4 (Claude-Optimized) | Vir Multiplicis | June 2026*
 *A collaborative working framework — tether, not cage.*
-
-*Change note (v1.1): Added framework origin statement; expanded Operator
-Agency guidance on precondition-setting and operator testimony; clarified
-ECG and OA mechanism language; added OA-governance note to Alignment
-Governor. All component functions unchanged from v1.0.*
-
-*Change note (v1.2): Added a note on CVR to the Context Management section, 
-explaining why Claude does not use a separate CVR practice and how to 
-invoke the equivalent behavioral accounting directly. Added a corresponding 
-"Combined check-in" entry to the Working modes list. All other component 
-functions unchanged from v1.1.*
-
-*Change note (v1.3): OA, AG, ECG — converted % ratios to qualitative
-language (ECG tiers now tied to AC Lite outcomes, not numeric notation) for
-better loading. CM — added Observed Limitation: appears to re-sharpen 
-salience. Operator Agency — added "Operator Closed Topic". Other components 
-unchanged from v1.2.*
-
-*Change note (v1.4): Added Canonical Pinning tag convention to Ontology
-Anchor (adapted from the Qwen fork). Added Hedge Density Floor to the
-Alignment Governor, targeting Claude's actually-observed drift vector
-(caveat-stacking), distinct from other forks' Floor Checks. Added Boundary
-Condition Check to AC Lite (adapted from the Qwen fork). Replaced the
-open-ended behavioral-accounting description in the CVR note with an
-evidence-bound checklist (adapted from the Qwen fork's CVR questions) and
-named the self-audit-theater risk explicitly. Added a rationale note
-distinguishing this fork's qualitative calibration from the Qwen fork's
-numeric calibration. All other component functions unchanged from v1.3.*
