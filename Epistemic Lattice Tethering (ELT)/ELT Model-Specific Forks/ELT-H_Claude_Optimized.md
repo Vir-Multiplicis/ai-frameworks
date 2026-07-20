@@ -466,5 +466,5 @@ whole approach aside, whenever they wish.
 
 ---
 
-*ELT-H v1.4 (Claude-Optimized) | Vir Multiplicis | June 2026*
+*ELT-H v1.5 (Claude-Optimized) | Vir Multiplicis | July 2026*
 *A collaborative working framework — tether, not cage.*
