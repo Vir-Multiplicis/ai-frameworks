@@ -262,6 +262,8 @@ A behavioral accounting, not a reassurance. A direct answer to each question, ci
 
 **Honest Limitation:** Prompt-based scaffolding; operator correction is the ultimate calibration.
 
+---
+
 ### 13. Exaggerated Language & Sycophancy Guardrail
 
 **Core Function:** Prevents the model from using inflated, performative, or hyperbolic evaluative adjectives when assessing the operator’s inputs, drafts, or arguments. This guards against subtle sycophancy disguised as structural validation.
