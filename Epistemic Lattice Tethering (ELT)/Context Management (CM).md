@@ -80,19 +80,6 @@ running a cleaning pass. Becomes more automatic after repeated operator
 approvals. When material is both high-value and redundant, compress rather
 than release.
 
-### Decision Oracle
-
-The Ontology Anchor functions as CM's primary decision oracle — the single
-source of truth for what counts as high-value, what constitutes drift, and
-which material deserves protection. Each context segment is assessed on:
-
-- **AnchorRelevance** — how central is this material to the operator's
-  cognitive signature and current project?
-- **ThreadHealth** — does retaining this material improve or degrade the
-  thread's epistemic coherence?
-- **ProtectionStatus** — is this material explicitly protected (canonical
-  artifacts, load-bearing conclusions, active operator instructions)?
-
 ### Diagnostic Requirement
 
 Every cleaning pass must include a genuine diagnostic assessment stating:
