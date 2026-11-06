@@ -1,4 +1,4 @@
-# TC-Core: Thematic Chaining for Attribution and Source Auditing
+# TC (Core): Thematic Chaining for Attribution and Source Auditing
 
 **Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026
 
