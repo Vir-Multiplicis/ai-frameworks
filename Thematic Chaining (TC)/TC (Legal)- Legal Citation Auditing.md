@@ -4,7 +4,7 @@
 
 TC-Legal is a filter for testing whether legal authority actually supports the proposition it's cited for. A citation counts only if the authority **states the proposition, applies to the facts at issue, binds or persuades the relevant court, and remains good law.**
 
-Misapplied, overextended, and fabricated case citations are among the most serious risks of AI-assisted legal work. TC-Legal adapts [TC-Core](TC-Core.md) to the specific ways legal citations go wrong. See also: [TC-Medical](TC-Medical.md)
+Misapplied, overextended, and fabricated case citations are among the most serious risks of AI-assisted legal work. TC-Legal adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Core)-%20Attribution%20and%20Source%20Auditing.md) to the specific ways legal citations go wrong. See also: [TC-Medical](TC-Medical.md)
 
 ---
 
