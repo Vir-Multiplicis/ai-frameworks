@@ -4,7 +4,7 @@
 
 TC-Medical is a filter for testing whether medical evidence actually supports the claim it's cited for. A citation counts only if the evidence **states the claim, comes from a study design able to support it, applies to the population and intervention in question, and remains current.**
 
-Overstated findings, mismatched populations, and outdated or retracted studies are among the most serious risks of AI-assisted medical writing. TC-Medical adapts [TC-Core](TC-Core.md) to the specific ways medical evidence is misapplied. See also: [TC-Legal](TC-Legal.md)
+Overstated findings, mismatched populations, and outdated or retracted studies are among the most serious risks of AI-assisted medical writing. TC-Medical adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Core)-%20Attribution%20and%20Source%20Auditing.md) to the specific ways medical evidence is misapplied. See also: [TC-Legal](TC-Legal.md)
 
 ---
 
