@@ -54,6 +54,41 @@ Misapplied, overextended, and fabricated case citations are among the most serio
 
 ---
 
+## Output Template
+
+Report every audit in the format below. Do not summarize instead of filling in the table.
+
+### Audit Summary
+
+```
+Document audited:
+Jurisdiction and court:
+Citations audited: [number]
+Critical: [number] · Significant: [number] · Minor: [number]
+Unverifiable: [number]
+Citator used: [KeyCite / Shepard's / none]
+```
+
+### Citation Results
+
+| # | Proposition | Authority cited | Steps failed | Verdict | Currency checked (citator and date) | Binding? | Tag | Severity | Recommended fix |
+|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | |
+
+### Authorities Not Found
+
+For each authority that couldn't be located: the proposition it supports, the citation as given, where it was searched for, and whether it may be fabricated.
+
+### Rules
+
+- One row per citation. List citations that pass as well as those that fail.
+- **Steps failed** names the step number and name, e.g., "6. Application to the facts."
+- **Currency checked** gives the citator and date. If no citator was available, enter "Not checked" and tag the result Unverified.
+- **Tag** is Verified only if the authority itself was retrieved and its currency checked with a citator.
+- For Contradicted, Overstated, or Overextended verdicts, quote the authority's actual language.
+
+---
+
 ## Workflow
 
 ### Stage 1: While drafting
