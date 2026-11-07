@@ -57,6 +57,42 @@ Overstated findings, mismatched populations, and outdated or retracted studies a
 
 ---
 
+## Output Template
+
+Report every audit in the format below. Do not summarize instead of filling in the table.
+
+### Audit Summary
+
+```
+Document audited:
+Claims audited: [number]
+Critical: [number] · Significant: [number] · Minor: [number]
+Unverifiable: [number]
+Databases used: [PubMed / Cochrane / guidelines / drug labels / retraction databases / none]
+```
+
+### Claim Results
+
+| # | Claim | Source cited | Study design | Population, intervention, and outcome match? | Steps failed | Verdict | Currency checked (retractions, guidelines, label, date) | Tag | Severity | Recommended fix |
+|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | |
+
+### Sources Not Found
+
+For each source that couldn't be retrieved: the claim it supports, the source sought, where it was searched for, and what would be needed to verify it.
+
+### Rules
+
+- One row per claim. List claims that pass as well as those that fail.
+- **Steps failed** names the step number and name, e.g., "7. Outcome match."
+- **Population, intervention, and outcome match** answers each separately, e.g., "Population: no (adults only); Intervention: yes; Outcome: surrogate."
+- **Currency checked** gives the databases and date. If none were available, enter "Not checked" and tag the result Unverified.
+- **Tag** is Verified only if the source itself was retrieved and its current status checked.
+- Any Critical finding involving dosing, contraindications, interactions, or serious harm is listed first, regardless of claim order.
+- For Contradicted or Overstated verdicts, quote the source's actual wording or figures.
+
+---
+
 ## Workflow
 
 ### Stage 1: While drafting
