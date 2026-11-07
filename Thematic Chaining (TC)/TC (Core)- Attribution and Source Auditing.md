@@ -75,6 +75,44 @@ TC began as a way to test proposed parallels between 1 Enoch and the Book of Rev
 
 ---
 
+## Output Template
+
+Report every TC result in the formats below. Do not summarize instead of filling in the tables.
+
+### Audit Summary
+
+```
+Document audited:
+Claims audited: [number]
+Critical: [number] · Significant: [number] · Minor: [number]
+Unverifiable: [number]
+```
+
+### Attribution Results (Mode 1)
+
+| Link in the chain | Candidate sources | Earliest source | Contradicted by | Result |
+|---|---|---|---|---|
+| | | | | |
+
+### Audit Results (Mode 2)
+
+| # | Claim | Source cited | Steps failed | Verdict | Tag | Severity | Recommended fix |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+
+### Sources Not Found
+
+For each source that couldn't be retrieved: the claim it supports, the source sought, where it was searched for, and what would be needed to verify it.
+
+### Rules
+
+- One row per claim. List claims that pass as well as those that fail.
+- **Steps failed** names the step number and name, e.g., "4. Test the joins."
+- **Tag** reflects how the verdict was reached: Verified, Memory, Secondary, or Unverified. Never tag a result Verified unless the source itself was retrieved and checked.
+- For Contradicted or Overstated verdicts, quote the source's actual wording.
+
+---
+
 ## Workflow
 
 ### Stage 1: While drafting
