@@ -4,7 +4,7 @@
 
 Thematic Chaining (TC) is an epistemic filter for testing claimed connections between texts. A connection counts only if it holds for the whole **linked sequence** of ideas, not for isolated resemblances or shared keywords.
 
-TC began as a way to test proposed parallels between 1 Enoch and the Book of Revelation. It applies to any field where resemblances are mistaken for sources, including AI hallucination detection. Domain versions: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Legal)-%20Legal%20Citation%20Auditing.md) · [TC-Medical](TC-Medical.md)
+TC began as a way to test proposed parallels between 1 Enoch and the Book of Revelation. It applies to any field where resemblances are mistaken for sources, including AI hallucination detection. Domain versions: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Legal)-%20Legal%20Citation%20Auditing.md) · [TC-Medical](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Medical)-%20Medical%20Evidence%20Auditing.md))
 
 ---
 
