@@ -97,6 +97,7 @@ Please preserve the names of the framework and components when using or adapting
 * **Intelligent Yielding**
 * **Workflow Fidelity Protocol (WFP)** / **Hebrew Scribe Mode**
 * **Source Fidelity Gate (SFG)**, where applicable
+* **Thematic Chaining (TC)**, including **TC-Legal** and **TC-Medical**
 
 Do not imply endorsement by **Vir Multiplicis** unless explicit permission has been granted.
 
