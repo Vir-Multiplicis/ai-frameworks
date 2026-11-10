@@ -87,7 +87,7 @@ Please report results in [Discussions](https://github.com/Vir-Multiplicis/ai-fra
 
 TC began in biblical textual criticism, as a way to test proposed parallels between texts: when a later passage resembles several earlier sources, which one is the real source? The same problem shows up wherever resemblance is mistaken for connection, including AI hallucination detection, legal citation checking, medical evidence review, copyright, and prior art.
 
-Introductory article: *Validating Parallel Similarities and Source Citations Through Thematic Chaining* (Medium, November 2026).
+Introductory article: [*Validating Parallel Similarities and Source Citations Through Thematic Chaining*](https://medium.com/@socal21st.oc/validating-parallel-similarities-and-source-citations-through-thematic-chaining-bd510b5061c3) (Medium, November 2026).
 
 ## Relation to other frameworks in this repository
 
