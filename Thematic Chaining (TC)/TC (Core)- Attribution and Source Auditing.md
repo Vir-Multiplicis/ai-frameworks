@@ -1,6 +1,6 @@
 # TC (Core): Thematic Chaining for Attribution and Source Auditing
 
-**Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026
+**Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
 
 Thematic Chaining (TC) is an epistemic filter for testing claimed connections between texts. A connection counts only if it holds for the whole **linked sequence** of ideas, not for isolated resemblances or shared keywords.
 
