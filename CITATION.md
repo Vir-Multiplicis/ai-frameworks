@@ -1,6 +1,6 @@
 # Citation and Attribution
 
-This repository contains the AI framework materials of **Vir Multiplicis**, including **Epistemic Lattice Tethering (ELT)** and related component mechanisms such as **Adversarial Convergence (AC / AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, **Ontology Anchor (OA)**, and other inference-time epistemic governance concepts, as well as **Thematic Chaining (TC)** for attribution and source auditing.
+This repository contains the AI framework materials of **Vir Multiplicis**, including **Epistemic Lattice Tethering (ELT)** and related component mechanisms such as **Adversarial Convergence (AC / AC Lite)**, **Earned Confidence Gating (ECG)**, **Alignment Governor (AG)**, **Ontology Anchor (OA)**, and other inference-time epistemic governance concepts. It also contains **Thematic Chaining (TC)**, a standalone framework for attribution and source auditing.
 
 Unless otherwise noted, the documentation, framework descriptions, prompt markups, and explanatory materials in this repository are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
@@ -38,6 +38,12 @@ Examples:
 > **Adversarial Convergence (AC / AC Lite)** by **Vir Multiplicis**, published in *AI Frameworks by Vir Multiplicis* under CC BY 4.0: https://github.com/Vir-Multiplicis/ai-frameworks
 
 > **Alignment Governor (AG)** by **Vir Multiplicis**, part of *Epistemic Lattice Tethering (ELT)*, published in *AI Frameworks by Vir Multiplicis* under CC BY 4.0: https://github.com/Vir-Multiplicis/ai-frameworks
+
+## Thematic Chaining (TC) Attribution
+
+Thematic Chaining (TC) is a standalone framework for attribution and source auditing. It is not part of ELT. Its domain versions, TC-Legal and TC-Medical, are adaptations of TC (Core).
+
+> **Thematic Chaining (TC)** by **Vir Multiplicis**, published in *AI Frameworks by Vir Multiplicis* under CC BY 4.0: [https://github.com/Vir-Multiplicis/ai-frameworks](https://github.com/Vir-Multiplicis/ai-frameworks)
 
 ## Suggested Academic-Style Citation
 
