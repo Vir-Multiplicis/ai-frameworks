@@ -167,7 +167,7 @@ ensures knowing you well doesn't collapse into simply agreeing with you.
 
 ## Further reading
 
-Full mechanism documentation: [Ontology Anchor v1.0](../Ontology%20Anchor%20(OA).md)
+Full mechanism documentation: [Ontology Anchor v1.0](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Epistemic%20Lattice%20Tethering%20(ELT)/Ontology%20Anchor%20(OA)/Ontology%20Anchor%20(OA).md)
 
 The conceptual foundation for the OA is covered in the companion Medium article 
 series. Start here: [The Ontology Anchor — Giving AI a Map of What Matters to You](https://medium.com/@socal21st.oc/the-ontology-anchor-giving-ai-a-better-way-to-know-you-4d88923d6d67)
