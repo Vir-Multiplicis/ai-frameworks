@@ -1,10 +1,10 @@
-# TC-Medical: Thematic Chaining for Medical Evidence Auditing
+# TC (Medical): Thematic Chaining for Medical Evidence Auditing
 
-**Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
+**Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026
 
 TC-Medical is a filter for testing whether medical evidence actually supports the claim it's cited for. A citation counts only if the evidence **states the claim, comes from a study design able to support it, applies to the population and intervention in question, and remains current.**
 
-Overstated findings, mismatched populations, and outdated or retracted studies are among the most serious risks of AI-assisted medical writing. TC-Medical adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Core)-%20Attribution%20and%20Source%20Auditing.md) to the specific ways medical evidence is misapplied. See also: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Legal)-%20Legal%20Citation%20Auditing.md).
+Overstated findings, mismatched populations, and outdated or retracted studies are among the most serious risks of AI-assisted medical writing. TC-Medical adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Core%29-%20Attribution%20and%20Source%20Auditing.md) to the specific ways medical evidence is misapplied. See also: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Legal%29-%20Legal%20Citation%20Auditing.md)
 
 ---
 
@@ -13,6 +13,7 @@ Overstated findings, mismatched populations, and outdated or retracted studies a
 - [Premises](#premises)
 - [Procedure](#procedure)
 - [Verdicts](#verdicts)
+- [Output Template](#output-template)
 - [Workflow](#workflow)
 - [Severity](#severity)
 - [Requirements](#requirements)
@@ -25,6 +26,7 @@ Overstated findings, mismatched populations, and outdated or retracted studies a
 1. **Work from the study, guideline, or label itself,** not an abstract, press release, or AI paraphrase. Abstracts often overstate results.
 2. **Match the claim to the strength of the evidence.** An association isn't causation, and a laboratory or animal finding isn't a human outcome.
 3. **Stop when support runs out.** If a source can't be retrieved or the evidence is insufficient, stop work on that claim and report it to the operator. Never fill a gap in dosing, contraindications, or safety from memory or inference.
+4. **Retrieve every citation.** Memory is never sufficient for a dose, contraindication, finding, or guideline. A result is **Verified** only if the audit cites the source's location and current status. For non-English studies, check the full text, not a translated abstract.
 
 ---
 
@@ -87,7 +89,7 @@ For each source that couldn't be retrieved: the claim it supports, the source so
 - **Steps failed** names the step number and name, e.g., "7. Outcome match."
 - **Population, intervention, and outcome match** answers each separately, e.g., "Population: no (adults only); Intervention: yes; Outcome: surrogate."
 - **Currency checked** gives the databases and date. If none were available, enter "Not checked" and tag the result Unverified.
-- **Tag** is Verified only if the source itself was retrieved and its current status checked.
+- **Tag** is Verified only if the source itself was retrieved, its current status checked, and the audit states where it was checked; otherwise use Memory or Unverified.
 - Any Critical finding involving dosing, contraindications, interactions, or serious harm is listed first, regardless of claim order.
 - For Contradicted or Overstated verdicts, quote the source's actual wording or figures.
 
