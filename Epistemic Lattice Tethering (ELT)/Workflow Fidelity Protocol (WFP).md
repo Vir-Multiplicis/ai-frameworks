@@ -1,4 +1,4 @@
-# Workflow Fidelity Protocol (WFP) v0.6 — Beta
+# Workflow Fidelity Protocol (WFP) v0.7 — Beta
 
 ## Purpose
 
