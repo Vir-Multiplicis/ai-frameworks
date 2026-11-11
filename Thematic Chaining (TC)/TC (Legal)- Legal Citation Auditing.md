@@ -1,10 +1,10 @@
-# TC-Legal: Thematic Chaining for Legal Citation Auditing
+# TC (Legal): Thematic Chaining for Legal Citation Auditing
 
-**Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
+**Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026
 
 TC-Legal is a filter for testing whether legal authority actually supports the proposition it's cited for. A citation counts only if the authority **states the proposition, applies to the facts at issue, binds or persuades the relevant court, and remains good law.**
 
-Misapplied, overextended, and fabricated case citations are among the most serious risks of AI-assisted legal work. TC-Legal adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Core)-%20Attribution%20and%20Source%20Auditing.md) to the specific ways legal citations go wrong. See also: [TC-Medical](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Medical)-%20Medical%20Evidence%20Auditing.md).
+Misapplied, overextended, and fabricated case citations are among the most serious risks of AI-assisted legal work. TC-Legal adapts [TC-Core](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Core%29-%20Attribution%20and%20Source%20Auditing.md) to the specific ways legal citations go wrong. See also: [TC-Medical](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Medical%29-%20Medical%20Evidence%20Auditing.md)
 
 ---
 
@@ -13,6 +13,7 @@ Misapplied, overextended, and fabricated case citations are among the most serio
 - [Premises](#premises)
 - [Procedure](#procedure)
 - [Verdicts](#verdicts)
+- [Output Template](#output-template)
 - [Workflow](#workflow)
 - [Severity](#severity)
 - [Requirements](#requirements)
@@ -25,6 +26,7 @@ Misapplied, overextended, and fabricated case citations are among the most serio
 1. **Work from the authority itself:** the opinion, statute, or regulation, not a summary, headnote, or AI paraphrase.
 2. **Separate the holding from dicta,** and the majority from concurrences and dissents.
 3. **Stop when support runs out.** If an authority can't be located or verified, stop work on that citation and report it to the operator. Don't rely on model memory for legal currency.
+4. **Retrieve every citation.** Memory is never sufficient for a holding, statute, or regulation. A result is **Verified** only if the audit cites the authority's location and the citator check. For foreign-language authorities, name the translation used.
 
 ---
 
@@ -84,7 +86,7 @@ For each authority that couldn't be located: the proposition it supports, the ci
 - One row per citation. List citations that pass as well as those that fail.
 - **Steps failed** names the step number and name, e.g., "6. Application to the facts."
 - **Currency checked** gives the citator and date. If no citator was available, enter "Not checked" and tag the result Unverified.
-- **Tag** is Verified only if the authority itself was retrieved and its currency checked with a citator.
+- **Tag** is Verified only if the authority itself was retrieved, its currency checked with a citator, and the audit states where it was checked; otherwise use Memory or Unverified.
 - For Contradicted, Overstated, or Overextended verdicts, quote the authority's actual language.
 
 ---
