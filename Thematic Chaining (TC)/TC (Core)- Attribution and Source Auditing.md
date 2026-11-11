@@ -1,6 +1,6 @@
 # TC (Core): Thematic Chaining for Attribution and Source Auditing
 
-**Version:** 1.0 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
+**Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
 
 Thematic Chaining (TC) is an epistemic filter for testing claimed connections between texts. A connection counts only if it holds for the whole **linked sequence** of ideas, not for isolated resemblances or shared keywords.
 
@@ -12,6 +12,7 @@ TC began as a way to test proposed parallels between various biblical works in t
 
 - [Modes](#modes)
 - [Premises](#premises)
+- [Retrieval Triage](#retrieval-triage)
 - [Mode 1: Attribution](#mode-1-attribution)
 - [Mode 2: Audit](#mode-2-audit)
 - [Workflow](#workflow)
@@ -20,6 +21,20 @@ TC began as a way to test proposed parallels between various biblical works in t
 
 ---
 
+## Retrieval Triage
+
+Self-audit can't catch confident errors, so the decision to retrieve follows rules, not the model's sense of certainty.
+
+**Retrieve the source if any of these apply:**
+
+- It's a **direct quotation** or a **specific number** (count, date, section, page).
+- It describes a **modern scholar's or expert's view**.
+- It's **obscure**, **load-bearing**, or **may have changed** since training.
+- The **model generated** the citation.
+
+Otherwise, memory is acceptable for the general content of widely known texts, but the result is tagged **Memory**, never Verified.
+
+**Proof of retrieval:** a result is **Verified** only if the audit cites where it was checked (a URL, or an edition with page or section). For translated sources, name the translation. Checking a translation verifies the translation, not the original.
 ## Modes
 
 | Mode | Question |
@@ -67,9 +82,10 @@ TC began as a way to test proposed parallels between various biblical works in t
 | 4. Test the joins | Does the source make the connection, or only share keywords? |
 | 5. Check contradiction | Include qualifications the claim omits. |
 | 6. Check the reference | Is it the right passage? A true claim can carry a wrong citation. |
-| 7. Check priority | Original or secondary? Trace to the earliest source. |
-| 8. Check currency | Has a later source retracted, corrected, or superseded it? |
-| 9. Test the weight | Is the point central to the source, or a passing remark? |
+| 7. Check the translation | For translated sources, quotations must match the named translation exactly or be marked as the author's own rendering. For load-bearing wording, check the original language where available. |
+| 8. Check priority | Original or secondary? Trace to the earliest source. |
+| 9. Check currency | Has a later source retracted, corrected, or superseded it? |
+| 10. Test the weight | Is the point central to the source, or a passing remark? |
 
 **Verdicts:** `supported` · `partially supported` · `overstated` · `keyword match only` · `contradicted` · `superseded` · `secondary` · `unverifiable`
 
