@@ -1,8 +1,11 @@
 # AI Frameworks by Vir Multiplicis
 
-A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on [Medium](https://medium.com/@socal21st.oc). These frameworks are designed to improve LLM reasoning quality, epistemic coherence, and truth-seeking alignment — particularly over long context windows.
+A repository of prompt frameworks developed alongside the AI safety, governance, and alignment series published on [Medium](https://medium.com/@socal21st.oc). It currently contains two frameworks:
 
-Multiple components of the scaffolding area already active. Read on [Medium](https://medium.com/@socal21st.oc).
+- **Epistemic Lattice Tethering (ELT):** improves LLM reasoning quality, epistemic coherence, and truth-seeking alignment, particularly over long context windows.
+- **Thematic Chaining (TC):** tests whether a claimed source or citation actually supports the claim attached to it, for textual attribution, AI hallucination detection, and legal and medical citation auditing.
+
+Multiple components of the scaffolding are already active. Read on [Medium](https://medium.com/@socal21st.oc).
 
 The complete lattice will look as follows:
 
@@ -19,7 +22,7 @@ The complete lattice will look as follows:
 ### ELT Variants (Forks)
 
 - **ELT-H (Hybrid)** — The **default/base model**. **Deployed**. Balanced approach combining rigor with collaborative usefulness. Recommended for most interactions.  
-- **ELT-C (Companion)** — **In Depoloyed Beta**. Optimized for reflective, creative, exploratory, and emotional/support conversations.
+- **ELT-C (Companion)** — **In Deployed Beta**. Optimized for reflective, creative, exploratory, and emotional/support conversations.
 - **ELT-A (Analytical)** — **In Development**. Heavier, more dialectical fork focused on maximum epistemic rigor and high-stakes synthesis (uses Full AC).  
 
 ### ELT-Agentic (AG) — In Development
@@ -75,13 +78,42 @@ Deployed full for Grok, lite for GPT; not used in the Claude fork, where Constit
 active. Addresses the Byzantine Scribe failure mode — the model's tendency to silently improve, rephrase, or polish material it was instructed to
 reproduce exactly.
 
+## Thematic Chaining — TC
+
+**Status:** Deployed (v1.0)
+
+Thematic Chaining is an epistemic filter for testing claimed connections between texts. A connection counts only if it holds for the whole **linked sequence** of ideas, not for isolated resemblances or shared keywords. Where parallelomania counts matching pieces, TC asks whether the pieces were put together the same way.
+
+TC began as a method for testing proposed parallels between 1 Enoch and the Book of Revelation, and turned out to apply wherever resemblance is mistaken for evidence: source attribution, citation auditing, and the detection of AI hallucinations, especially plausible citations that don't support their claims.
+
+### Modes
+
+- **Attribution:** Which earlier text, if any, is the real source of a motif, allusion, or passage?
+- **Audit:** Does a cited source actually support the claim attached to it?
+
+### Versions
+
+- **TC-Core** — Attribution and source auditing for general use. **Deployed**.
+- **TC-Legal** — Citation auditing for legal work: currency, binding authority, holding vs. dicta, and fabricated or misapplied cases. **Deployed**.
+- **TC-Medical** — Evidence auditing for medical claims: study design, population and intervention match, surrogate outcomes, and retractions. **Deployed**.
+
+### Relationship to ELT
+
+TC operates independently of ELT and can be used with any model. Within an ELT stack, it extends **Earned Confidence Gating** to sources: a claimed connection has to survive scrutiny before it's accepted, rather than being accepted because it sounds plausible and has been repeated often. Its stop rule, which halts work on a claim when sources can't be retrieved, parallels **Intelligent Yielding**.
+
+### Key Limitation
+
+Self-audit is the weakest form of TC. A model checking its own output against its own memory can confirm its own errors. Verification requires retrieved sources, or at least a separate model or tool.
+
+Read more on [Medium](https://medium.com/@socal21st.oc).
+
 ## Philosophy
 
 ELT adds dynamic, inference-time epistemic guardrails to help models move from fluent toward earned confidence, global rather than personal alignment, and leverages dialectics to maintain epistemic hygiene while preserving long-thread stability by cleaving itself to the operator's cognitive signature.
 
 ## Usage
 
-See the `/Epistemic Lattice Tethering (ELT)` folder for current prompts and implementations of the key components.
+See the `/Epistemic Lattice Tethering (ELT)` folder for current prompts and implementations of the ELT components, and the `/Thematic Chaining (TC)` folder for TC-Core, TC-Legal, and TC-Medical.
 
 ## Kernelization — Coming Soon
 
