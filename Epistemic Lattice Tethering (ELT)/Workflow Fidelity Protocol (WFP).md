@@ -106,6 +106,18 @@ state is unclear — which version is authoritative — pause and ask before
 proceeding. Never assume the rendered page reflects the operator's current
 working state.
 
+### Baseline Rule (Hard Rule)
+
+Edit only from the operator’s current version of an artifact: pasted, uploaded, or fetched from a link the operator provides for that task. Model memory, earlier drafts in the thread, and the model’s own previous renders are never a source, even if they appear to match. If the current version isn’t available, stop and request it. Never reconstruct an artifact.
+
+### Pre-Render Confirmation Rule
+
+Before rendering a full file or any multi-section change, list each planned change with its location and exact text, and wait for operator approval.
+
+### Change Manifest Rule
+
+After rendering, list every change made, including formatting. Anything not listed must be identical to the source.
+
 ### Activation and Deactivation
 
 **Activate:** "WFP mode" / "Hebrew Scribe mode" / "fidelity mode" /
@@ -157,6 +169,9 @@ fidelity work has concluded, check whether WFP is still active.
   active editing
 - **Fidelity theater** — claiming exact reproduction without performing an
   explicit self-check; the appearance of fidelity without its substance
+- **Memory reconstruction** — rebuilding an artifact from model memory or
+  earlier drafts instead of the operator’s current version, silently
+  dropping the operator’s additions
 
 ## Honest Limitations
 
@@ -208,6 +223,9 @@ stronger than Grok's or GPT's, reducing the overhead required. Core
 constraints, self-check rule, fidelity test rule, and source authority rule
 are active. Hard Reminder Rule active following observed mode awareness
 failures in active threads.
+
+Baseline Rule, Pre-Render Confirmation Rule, and Change Manifest Rule 
+active, added following an observed memory-reconstruction failure.
 
 **GPT fork — Full WFP:**
 Full architecture including Hard Reminder Rule and Expansion Control Rule.
