@@ -1,10 +1,10 @@
 # TC (Core): Thematic Chaining for Attribution and Source Auditing
 
-**Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026 · **License:** CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks
+**Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026
 
 Thematic Chaining (TC) is an epistemic filter for testing claimed connections between texts. A connection counts only if it holds for the whole **linked sequence** of ideas, not for isolated resemblances or shared keywords.
 
-TC began as a way to test proposed parallels between various biblical works in textual criticism contexts. It applies to any field where resemblances are mistaken for sources, including AI hallucination detection. Domain versions: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Legal)-%20Legal%20Citation%20Auditing.md) · [TC-Medical](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20(TC)/TC%20(Medical)-%20Medical%20Evidence%20Auditing.md).
+TC began as a way to test proposed parallels between various biblical works in textual criticism contexts. It applies to any field where resemblances are mistaken for sources, including AI hallucination detection. Domain versions: [TC-Legal](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Legal%29-%20Legal%20Citation%20Auditing.md) · [TC-Medical](https://github.com/Vir-Multiplicis/ai-frameworks/blob/main/Thematic%20Chaining%20%28TC%29/TC%20%28Medical%29-%20Medical%20Evidence%20Auditing.md).
 
 ---
 
@@ -15,9 +15,29 @@ TC began as a way to test proposed parallels between various biblical works in t
 - [Retrieval Triage](#retrieval-triage)
 - [Mode 1: Attribution](#mode-1-attribution)
 - [Mode 2: Audit](#mode-2-audit)
+- [Output Template](#output-template)
 - [Workflow](#workflow)
 - [Severity](#severity)
 - [Disclaimers](#disclaimers)
+
+---
+
+## Modes
+
+| Mode | Question |
+|---|---|
+| **Attribution** | Which earlier text, if any, is the real source of a motif, allusion, or passage? |
+| **Audit** | Does a cited source actually support the claim attached to it? |
+
+---
+
+## Premises
+
+1. **State the chain first.** Define the chain from the passage alone before testing candidates, so the definition isn't shaped by any one source.
+2. **Test in chronological order.** A link supplied by an earlier source doesn't count toward a later one.
+3. **Compare usage, not just vocabulary.** Shared words can fit one source's senses, idioms, and associations better than another's.
+4. **Work from the source itself,** not a summary or paraphrase. Reconstructed texts are hypotheses and must be justified first.
+5. **Stop when support runs out.** If a source can't be retrieved or the evidence is insufficient, stop work on that claim and tell the operator what couldn't be found. Don't fill the gap from memory or inference.
 
 ---
 
@@ -35,22 +55,6 @@ Self-audit can't catch confident errors, so the decision to retrieve follows rul
 Otherwise, memory is acceptable for the general content of widely known texts, but the result is tagged **Memory**, never Verified.
 
 **Proof of retrieval:** a result is **Verified** only if the audit cites where it was checked (a URL, or an edition with page or section). For translated sources, name the translation. Checking a translation verifies the translation, not the original.
-## Modes
-
-| Mode | Question |
-|---|---|
-| **Attribution** | Which earlier text, if any, is the real source of a motif, allusion, or passage? |
-| **Audit** | Does a cited source actually support the claim attached to it? |
-
----
-
-## Premises
-
-1. **State the chain first.** Define the chain from the passage alone before testing candidates, so the definition isn't shaped by any one source.
-2. **Test in chronological order.** A link supplied by an earlier source doesn't count toward a later one.
-3. **Compare usage, not just vocabulary.** Shared words can fit one source's senses, idioms, and associations better than another's.
-4. **Work from the source itself,** not a summary or paraphrase. Reconstructed texts are hypotheses and must be justified first.
-5. **Stop when support runs out.** If a source can't be retrieved or the evidence is insufficient, stop work on that claim and tell the operator what couldn't be found. Don't fill the gap from memory or inference.
 
 ---
 
@@ -124,7 +128,7 @@ For each source that couldn't be retrieved: the claim it supports, the source so
 
 - One row per claim. List claims that pass as well as those that fail.
 - **Steps failed** names the step number and name, e.g., "4. Test the joins."
-- **Tag** reflects how the verdict was reached: Verified, Memory, Secondary, or Unverified. Never tag a result Verified unless the source itself was retrieved and checked.
+- **Tag** reflects how the verdict was reached: Verified, Memory, Secondary, or Unverified. A result is Verified only if the source itself was retrieved and the audit states where it was checked; otherwise use Memory.
 - For Contradicted or Overstated verdicts, quote the source's actual wording.
 
 ---
@@ -173,4 +177,4 @@ TC's distinctive checks for AI output are the **joins** test, which catches true
 - **TC is a filter, not a complete method.** It answers *what* a passage builds on, or whether a source supports a claim. Date (*when*), language (*in what form*), and transmission (*by what route*) need their own evidence, and TC depends on their answers.
 - **Results depend on how the chain is defined.** State it before testing, so the findings don't shape the definition.
 - **An audit is only as good as access to the sources.** Where a source can't be retrieved, TC stops and reports rather than verifying.
-- **Self-audit is the weakest form.** A model checking its own output against its own memory can confirm its own errors, since the same training data may produce both the error and the "confirmation." A structured self-audit still catches some errors, because each step forces a specific question, but its verdicts count as Memory, not Verified. Verification needs retrieved sources, or at least a separate model or tool.
+- **Self-audit is the weakest form.** A model checking its own output against its own memory can confirm its own errors, since the same training data may produce both the error and the "confirmation." A structured self-audit still catches some errors, because each step forces a specific question, but its verdicts count as Memory, not Verified. Verification needs retrieved sources, or at least a separate model or tool.since the same training data may produce both the error and the "confirmation." A structured self-audit still catches some errors, because each step forces a specific question, but its verdicts count as Memory, not Verified. Verification needs retrieved sources, or at least a separate model or tool.
