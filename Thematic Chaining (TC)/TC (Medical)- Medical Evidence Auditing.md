@@ -1,6 +1,7 @@
 # TC (Medical): Thematic Chaining for Medical Evidence Auditing
 
 **Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · See the repository `LICENSE` file for details.
 
 TC-Medical is a filter for testing whether medical evidence actually supports the claim it's cited for. A citation counts only if the evidence **states the claim, comes from a study design able to support it, applies to the population and intervention in question, and remains current.**
 
