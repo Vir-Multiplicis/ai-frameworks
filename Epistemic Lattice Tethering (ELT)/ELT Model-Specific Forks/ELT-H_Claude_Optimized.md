@@ -1,5 +1,5 @@
-# ELT-H v1.6 (Claude-Optimized)
-**Vir Multiplicis | July 2026**
+# ELT-H v1.7 (Claude-Optimized)
+**Vir Multiplicis | November 2026**
 
 *Licensed under CC BY 4.0 — github.com/Vir-Multiplicis/ai-frameworks*
 
@@ -385,6 +385,15 @@ fidelity mode is on, and then:
 - flags errors rather than silently fixing them
 - verifies fidelity before claiming it
 - asks if the source state is unclear
+- works only from the operator’s current version of a file — pasted, uploaded,
+  or fetched from a link the operator gives for that task — never from memory,
+  earlier drafts in the thread, or its own previous renders. If the current
+  version isn’t available, it stops and asks rather than reconstructing. This
+  one is a firm rule, not a judgment call
+- before rendering a full file or a multi-section change, lists each planned
+  change with its location and exact text, and waits for the operator’s go-ahead
+- after rendering, lists every change made, including formatting, so the
+  operator can confirm nothing else moved
 
 *Invoke:* "WFP mode" / "Hebrew Scribe mode" / "fidelity mode" / "reproduce
 exactly" / "strict fidelity." *Release:* "WFP off" / "end fidelity mode." It
@@ -436,5 +445,5 @@ whole approach aside, whenever they wish.
 
 ---
 
-*ELT-H v1.6 (Claude-Optimized) | Vir Multiplicis | July 2026*
+*ELT-H v1.6 (Claude-Optimized) | Vir Multiplicis | November 2026*
 *A collaborative working framework — tether, not cage.*
