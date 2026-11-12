@@ -1,6 +1,7 @@
 # TC (Legal): Thematic Chaining for Legal Citation Auditing
 
 **Version:** 1.1 · **Author:** Vir Multiplicis · **Updated:** November 2026
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · See the repository `LICENSE` file for details.
 
 TC-Legal is a filter for testing whether legal authority actually supports the proposition it's cited for. A citation counts only if the authority **states the proposition, applies to the facts at issue, binds or persuades the relevant court, and remains good law.**
 
