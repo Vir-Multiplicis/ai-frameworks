@@ -30,6 +30,8 @@ PW began as a way to break stalemates in biblical textual criticism, where a rea
 | **Availability** | A candidate remains possible on the evidence as it stands. Nothing explicitly rules it out. |
 | **Comparative plausibility** | A candidate's relative likelihood once the evidence is weighed. A candidate can be available yet substantially less plausible if it needs costly assumptions to account for the features present. |
 
+**Example.** At Dyatlov Pass (1959), a Yeti remains *available*: nothing strictly rules it out, and it explains the hikers' panic. But it needs an extraordinary assumption with no evidence behind it. A chain of ordinary steps (a slab avalanche onto the tent, flight to the tree line, hypothermia, falls in a ravine) explains every feature, the strange ones included, at far lower cost. PW asks what probably happened, not what could have.
+
 ---
 
 ## Premises
@@ -40,6 +42,7 @@ PW began as a way to break stalemates in biblical textual criticism, where a rea
 4. **Judge broader claims first.** When candidates share a broader claim, settle that claim before ranking the narrower ones against each other.
 5. **Count each piece of evidence once.** A restated or reframed feature sharpens an existing grade; it doesn't add a new cost.
 6. **Stop when support runs out.** Don't fill a missing feature from memory or inference. Report it and weight the ranking accordingly.
+7. **Lower rank means less likely, not false.** Proceed on the top-ranked candidate provisionally, and keep the runner-up in view in case new evidence shifts the weights.
 
 ---
 
@@ -57,6 +60,12 @@ A ranking is only as good as its features, and confident errors pass self-review
 
 A primary source outranks a secondary report of it. Otherwise, memory is acceptable for widely known background, tagged **Memory**.
 
+**Weigh sources, not just dates.** An earlier source is eligible, not automatically preferred. Judge each source by its proximity to the events, its access to evidence, and its stake in the outcome. A later source with fuller access can outrank an earlier secondhand one.
+
+**Split composite sources.** Test a compilation by its components, not as a single witness. Its parts may differ in date, origin, and reliability.
+
+**Mind source standing.** A feature that rests on a heavily contested theory carries that theory's weakness. If it's load-bearing, grade it down or drop it, even when it would tie the case together neatly.
+
 | Tag | Meaning | Weight |
 |---|---|---|
 | **Verified** | Checked against a primary source, cited by URL or edition and page. | Full |
@@ -73,13 +82,14 @@ A primary source outranks a secondary report of it. Otherwise, memory is accepta
 |---|---|
 | 1. Candidates | List every available candidate as its proponents would state it, plus a catch-all for ones not yet considered. Mark candidates the analyst added, and group those that share a broader claim. |
 | 2. Features | Isolate the features in the evidence, plus what each candidate predicts should appear. Verify and tag each feature. A missing prediction counts against its candidate. |
-| 3. Discrimination | Mark the features that distinguish candidates. Features all candidates explain equally don't affect the ranking. |
+| 3. Discrimination | Mark the features that distinguish candidates. Features all candidates explain equally don't affect the ranking. A candidate that unifies scattered features earns credit only if those features are independent of one another and weren't selected to fit it. |
 | 4. Costs | List each candidate's assumptions, including one for every feature it leaves unexplained. Grade each assumption, ideally with a rival's advocate checking the grades. |
-| 5. Base rates | Note how often each type of explanation holds in comparable cases, described at the same level of detail for every candidate. |
-| 6. Ranking | Judge broader shared claims before narrower ones. Rank by total assumption cost on the discriminating features, adjusted for base rates. Grade each gap and give the reason. |
-| 7. Flip test | Name what would change the top rank if judged differently. If much would, the ranking is fragile. |
-| 8. Ties | Treat candidates as comparable only when the discriminating features support it, and say why. |
-| 9. Conclusion | Lead with the answer. State a position for each claim, broadest first, with its confidence and what evidence would revise it. |
+| 5. Base rates | Note how often each type of explanation holds in comparable cases, described at the same level of detail for every candidate. A base rate sets a candidate's starting plausibility; it is not evidence for the case at hand. |
+| 6. Control cases | Where possible, test the leading candidates against a comparable case where the proposed cause is absent or different. If the outcome differs where the cause differs, that favors the candidate. |
+| 7. Ranking | Judge broader shared claims before narrower ones. Rank by total assumption cost on the discriminating features, adjusted for base rates and control cases. Grade each gap and give the reason. |
+| 8. Flip test | Name what would change the top rank if judged differently. If much would, the ranking is fragile. |
+| 9. Ties | Treat candidates as comparable only when the discriminating features support it, and say why. |
+| 10. Conclusion | Lead with the answer. State a position for each claim, broadest first, with its confidence and what evidence would revise it. |
 
 **Results:** `ranked` · `tie` · `insufficient`
 
@@ -132,6 +142,12 @@ Features unverified or wrong: [number]
 |---|---|---|
 | | | |
 
+### Control Cases
+
+| Comparable case | How it differs | Outcome | Favors |
+|---|---|---|---|
+| | | | |
+
 ### Ranking
 
 | Rank | Candidate | Gap to next | Reason |
@@ -151,6 +167,7 @@ The answer first, then a position and confidence for each claim, broadest first,
 - One row per feature. List non-discriminating and wrong features as well as decisive ones.
 - **Proposed by** names the candidate's source, or "analyst" if added during the run.
 - **Source checked** gives a URL or edition and page; without one, the tag can't be Verified.
+- Leave **Control Cases** empty if no comparable case exists, and say so.
 - Re-run the full procedure when a feature is corrected. Don't patch the conclusion alone.
 
 ---
@@ -163,7 +180,7 @@ State the background assumptions, the candidates, and the features before any ra
 
 ### Stage 2: Run
 
-Complete steps 1–9 and fill in the Output Template.
+Complete steps 1–10 and fill in the Output Template.
 
 ### Stage 3: Review
 
@@ -183,14 +200,19 @@ Complete steps 1–9 and fill in the Output Template.
 
 | Failure | Sign | Fix |
 |---|---|---|
-| **False equivalence** | Available options presented as equally likely | Rank by assumption cost (step 6) |
+| **False equivalence** | Available options presented as equally likely | Rank by assumption cost (step 7) |
 | **Inflated confidence** | Contested questions ranked with strong gaps; the winner always costs one ordinary assumption | Adversarial grading (step 4) |
 | **Mismatched base rates** | Broad reference class for one candidate, narrow for its rival | Same level of detail for all (step 5) |
+| **Base rate as evidence** | A general pattern treated as proof of the specific case | Base rates set the starting point only (step 5) |
 | **Strawman rival** | A candidate tested in a form its proponents don't hold | State candidates as proponents would (step 1) |
 | **Unverified features** | Specific facts or numbers recalled, not checked | Feature Verification |
+| **Earlier-is-better** | A source preferred for its date alone | Weigh proximity, access, and stake (Feature Verification) |
+| **Lumped sources** | A compilation treated as one witness, blurring its parts | Split composite sources (Feature Verification) |
+| **Shaky support** | A load-bearing feature resting on a heavily contested theory | Mind source standing (Feature Verification) |
+| **Retrofitted unity** | Features selected because they fit the favored candidate, then counted as confirmation | Independence check (step 3) |
 | **Double counting** | The same evidence charged twice under new framings | Count each piece once (premise 5) |
-| **Nested rivals** | Candidates sharing a broader claim ranked as if exclusive, burying the broad answer | Judge broader claims first (step 6) |
-| **Unattached confidence** | A confidence level that doesn't say which claim it measures | Confidence per claim (step 9) |
+| **Nested rivals** | Candidates sharing a broader claim ranked as if exclusive, burying the broad answer | Judge broader claims first (step 7) |
+| **Unattached confidence** | A confidence level that doesn't say which claim it measures | Confidence per claim (step 10) |
 
 ---
 
@@ -201,3 +223,4 @@ Complete steps 1–9 and fill in the Output Template.
 - **Grading is judgment.** Grading assumptions and base rates draws on background knowledge, which should be stated rather than left implicit. Reasonable analysts can grade differently, and close rankings are where that matters most.
 - **A ranking is only as good as its features.** PW can't catch a feature no one looked for. Searching for what each candidate predicts helps, but doesn't guarantee completeness.
 - **Self-grading is the weakest form.** An analyst grading the costs of a favored candidate tends to grade toward it. A structured run still exposes assumptions, but its verdicts are stronger when a separate reviewer checks the grades.
+````
